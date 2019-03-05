@@ -6,11 +6,7 @@
 > **99.9% of people just say "Happy Birthday" to each other over Social Networking Sites like [Facebook](https://www.facebook.com/vinit.shahdeo) and [Twitter](https://twitter.com/Vinit_Shahdeo) with the same 14 predictable letters. Why not say it with `code`? If you're a developer you already understand it!**
 
 ```
-01001000 01100001 01110000
-01110000 01111001 00100000
-01000010 01101001 01110010
-01110100 01101000 01100100
-01100001 01111001 00100001
+01010111 01101001 01110011 01101000 01101001 01101110 01100111 00100000 01111001 01101111 01110101 00100000 01100001 00100000 01110110 01100101 01110010 01111001 00100000 01001000 01100001 01110000 01110000 01111001 00100000 01000010 01101001 01110010 01110100 01101000 01100100 01100001 01111001 00100001
 ```
 
 ### Designing a [website](http://codeastrike.000webhostapp.com/hbd/) to celebrate your loved one's day is always a great idea!
