@@ -15,7 +15,7 @@
 ╚═════╝ ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝    
                                                                     
 ```
-# Happy Birthday! - [Coder's way of wishing](https://www.facebook.com/vinit.shahdeo/)
+# Happy Birthday! - [Coder's way of wishing](https://medium.com/@vinitshahdeo/coders-way-of-wishing-happy-birthday-1fe457e7a2ba)
 [![Happy Birthday](https://img.shields.io/badge/Happy-Birthday-dodgerblue.svg?style=for-the-badge)]() [![View Demo](https://img.shields.io/badge/View-Demo-teal.svg?style=for-the-badge)]()
 [![Check Blog](https://img.shields.io/badge/Check-Blog-orange.svg?style=for-the-badge)]()
 
@@ -37,11 +37,11 @@
 
 > #### Click [here](http://codeastrike.000webhostapp.com/hbd/) to view live demo!
 
-### Find some [more]() creative ways!
+### Find some [more](https://medium.com/@vinitshahdeo/coders-way-of-wishing-happy-birthday-1fe457e7a2ba) creative ways!
 
 [![Kill it](https://forthebadge.com/images/badges/oooo-kill-em.svg)](https://forthebadge.com) [![Vinit Shahdeo](https://forthebadge.com/images/badges/powered-by-oxygen.svg)](https://facebook.com/vinit.shahdeo)
 
-I have also written a blog post. You can find [few] `code` snippets to make someone's **birthday** really special.
+I have also written a [blog](https://medium.com/@vinitshahdeo/coders-way-of-wishing-happy-birthday-1fe457e7a2ba) post. You can find [few](https://medium.com/@vinitshahdeo/coders-way-of-wishing-happy-birthday-1fe457e7a2ba) `code` snippets to make someone's **birthday** really special.
 
 Run the below `C` code.
 
@@ -66,6 +66,6 @@ int main(void) {
 
 ## Thanks! I'm social!
 
-**Lemme know, if you've got better idea. I'd love to hear how *[these]() `code` [snippets]()* have helped you to impress someone.**
+**Lemme know, if you've got better idea. I'd love to hear how *[these](https://medium.com/@vinitshahdeo/coders-way-of-wishing-happy-birthday-1fe457e7a2ba) `code` [snippets](https://medium.com/@vinitshahdeo/coders-way-of-wishing-happy-birthday-1fe457e7a2ba)* have helped you to impress someone.**
 
 <a href="https://www.facebook.com/vinit.shahdeo/" target="_blank"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/facebook.svg" /></a> &nbsp;&nbsp;<a href="https://twitter.com/Vinit_Shahdeo" target="_blank"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/twitter.svg" /></a> &nbsp;&nbsp;<a href="https://www.instagram.com/vinitshahdeo/" target="_blank"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/instagram.svg" /></a>
