@@ -17,7 +17,6 @@
 
 > #### Click here to view live demo!
 
-<script src="https://gist.github.com/vinitshahdeo/28665b5a010b92cf96cd1abced0a2a9e.js"></script>
 
 ### Find some [more]() creative ways!
 
@@ -44,6 +43,6 @@ int main(void) {
 
 ## Thanks! I'm social!
 
-Lemme know, if you've got better idea. I'd love to hear how these code snippets have helped you to impress someone.
+**Lemme know, if you've got better idea. I'd love to hear how these [code snippets] have helped you to impress someone.**
 
 <a href="https://www.facebook.com/vinit.shahdeo/" target="_blank"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/facebook.svg" /></a> &nbsp;&nbsp;<a href="https://twitter.com/Vinit_Shahdeo" target="_blank"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/twitter.svg" /></a> &nbsp;&nbsp;<a href="https://www.instagram.com/vinitshahdeo/" target="_blank"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/instagram.svg" /></a>
