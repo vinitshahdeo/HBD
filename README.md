@@ -13,9 +13,9 @@
 01100001 01111001 00100001
 ```
 
-### Designing a website to celebrate your loved one's day is always a great idea!
+### Designing a [website](http://codeastrike.000webhostapp.com/hbd/) to celebrate your loved one's day is always a great idea!
 
-> #### Click here to view live demo!
+> #### Click [here](http://codeastrike.000webhostapp.com/hbd/) to view live demo!
 
 
 ### Find some [more]() creative ways!
@@ -43,6 +43,6 @@ int main(void) {
 
 ## Thanks! I'm social!
 
-**Lemme know, if you've got better idea. I'd love to hear how these [code snippets] have helped you to impress someone.**
+**Lemme know, if you've got better idea. I'd love to hear how these `code` [snippets]() have helped you to impress someone.**
 
 <a href="https://www.facebook.com/vinit.shahdeo/" target="_blank"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/facebook.svg" /></a> &nbsp;&nbsp;<a href="https://twitter.com/Vinit_Shahdeo" target="_blank"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/twitter.svg" /></a> &nbsp;&nbsp;<a href="https://www.instagram.com/vinitshahdeo/" target="_blank"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/instagram.svg" /></a>
