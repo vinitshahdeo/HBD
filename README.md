@@ -1,4 +1,4 @@
-![Happy Birthday](./hbd.png)
+[![Happy Birthday](./hbd.png)]()
 # Happy Birthday! - [Coder's way of wishing](https://www.facebook.com/vinit.shahdeo/)
 [![Happy Birthday](https://img.shields.io/badge/Happy-Birthday-dodgerblue.svg?style=for-the-badge)]() [![View Demo](https://img.shields.io/badge/View-Demo-teal.svg?style=for-the-badge)]()
 [![Check Blog](https://img.shields.io/badge/Check-Blog-orange.svg?style=for-the-badge)]()
@@ -43,6 +43,6 @@ int main(void) {
 
 ## Thanks! I'm social!
 
-**Lemme know, if you've got better idea. I'd love to hear how *[these]()* `code` [snippets]() have helped you to impress someone.**
+**Lemme know, if you've got better idea. I'd love to hear how *[these]() `code` [snippets]()* have helped you to impress someone.**
 
 <a href="https://www.facebook.com/vinit.shahdeo/" target="_blank"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/facebook.svg" /></a> &nbsp;&nbsp;<a href="https://twitter.com/Vinit_Shahdeo" target="_blank"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/twitter.svg" /></a> &nbsp;&nbsp;<a href="https://www.instagram.com/vinitshahdeo/" target="_blank"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/instagram.svg" /></a>
