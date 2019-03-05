@@ -3,7 +3,7 @@
 [![Happy Birthday](https://img.shields.io/badge/Happy-Birthday-dodgerblue.svg?style=for-the-badge)]() [![View Demo](https://img.shields.io/badge/View-Demo-teal.svg?style=for-the-badge)]()
 [![Check Blog](https://img.shields.io/badge/Check-Blog-orange.svg?style=for-the-badge)]()
 
-> **99.9% of people just say "Happy Birthday" to each other over Social Networking Sites like Facebook and Twitter with the same 14 predictable letters. Why not say it with code? If you're a developer you already understand it!**
+> **99.9% of people just say "Happy Birthday" to each other over Social Networking Sites like [Facebook](https://www.facebook.com/vinit.shahdeo) and [Twitter](https://twitter.com/Vinit_Shahdeo) with the same 14 predictable letters. Why not say it with `code`? If you're a developer you already understand it!**
 
 ```
 01001000 01100001 01110000
@@ -20,7 +20,7 @@
 
 ### Find some [more]() creative ways!
 
-I have also written a blog post. You can find few code snippets to make someone's birthday really special.
+I have also written a blog post. You can find [few] `code` snippets to make someone's **birthday** really special.
 
 Run the below `C` code.
 
@@ -43,6 +43,6 @@ int main(void) {
 
 ## Thanks! I'm social!
 
-**Lemme know, if you've got better idea. I'd love to hear how these `code` [snippets]() have helped you to impress someone.**
+**Lemme know, if you've got better idea. I'd love to hear how *[these]()* `code` [snippets]() have helped you to impress someone.**
 
 <a href="https://www.facebook.com/vinit.shahdeo/" target="_blank"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/facebook.svg" /></a> &nbsp;&nbsp;<a href="https://twitter.com/Vinit_Shahdeo" target="_blank"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/twitter.svg" /></a> &nbsp;&nbsp;<a href="https://www.instagram.com/vinitshahdeo/" target="_blank"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/instagram.svg" /></a>
