@@ -5,6 +5,8 @@
 
 > **99.9% of people just say "Happy Birthday" to each other over Social Networking Sites like [Facebook](https://www.facebook.com/vinit.shahdeo) and [Twitter](https://twitter.com/Vinit_Shahdeo) with the same 14 predictable letters. Why not say it with `code`? If you're a developer you already understand it!**
 
+[![check demo](https://forthebadge.com/images/badges/its-not-a-lie-if-you-believe-it.svg)](http://codeastrike.000webhostapp.com/hbd/)
+
 ```
 01010111 01101001 01110011 01101000 01101001 01101110 01100111 00100000 
 01111001 01101111 01110101 00100000 01100001 00100000 01110110 01100101 
@@ -13,18 +15,23 @@
 01111001 00100001
 ```
 
+[![Happy Birthday](https://forthebadge.com/images/badges/built-with-love.svg)](https://vinitshahdeo.github.io/HBD/) [![Maked People Smile](https://forthebadge.com/images/badges/makes-people-smile.svg)](http://codeastrike.000webhostapp.com/hbd/)
+
 ### Designing a [website](http://codeastrike.000webhostapp.com/hbd/) to celebrate your loved one's day is always a great idea!
 
 > #### Click [here](http://codeastrike.000webhostapp.com/hbd/) to view live demo!
 
-
 ### Find some [more]() creative ways!
+
+[![Kill it](https://forthebadge.com/images/badges/oooo-kill-em.svg)](https://forthebadge.com) [![Vinit Shahdeo](https://forthebadge.com/images/badges/powered-by-oxygen.svg)](https://facebook.com/vinit.shahdeo)
 
 I have also written a blog post. You can find [few] `code` snippets to make someone's **birthday** really special.
 
 Run the below `C` code.
 
 > Click [here](https://code.hackerearth.com/65105eK) to run online.
+
+[![C code](https://forthebadge.com/images/badges/made-with-c.svg)](https://code.hackerearth.com/65105eK) [![Run Online](https://forthebadge.com/images/badges/check-it-out.svg)](https://code.hackerearth.com/65105eK)
 
 ```c
 #include <stdio.h>
