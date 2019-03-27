@@ -66,6 +66,8 @@ int main(void) {
 
 ## Thanks! I'm social!
 
+<iframe src="https://ghbtns.com/github-btn.html?user=vinitshahdeo&type=follow&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+
 **Lemme know, if you've got better idea. I'd love to hear how *[these](https://medium.com/@vinitshahdeo/coders-way-of-wishing-happy-birthday-1fe457e7a2ba) `code` [snippets](https://medium.com/@vinitshahdeo/coders-way-of-wishing-happy-birthday-1fe457e7a2ba)* have helped you to impress someone.**
 
 <a href="https://www.facebook.com/vinit.shahdeo/" target="_blank"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/facebook.svg" /></a> &nbsp;&nbsp;<a href="https://twitter.com/Vinit_Shahdeo" target="_blank"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/twitter.svg" /></a> &nbsp;&nbsp;<a href="https://www.instagram.com/vinitshahdeo/" target="_blank"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/instagram.svg" /></a>
