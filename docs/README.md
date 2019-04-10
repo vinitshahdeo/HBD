@@ -63,6 +63,7 @@ int main(void) {
 
 > Click [here](https://gist.github.com/vinitshahdeo/28665b5a010b92cf96cd1abced0a2a9e) to view above gist!
 
+[![HackerNoon Story](https://img.shields.io/static/v1.svg?label=check&message=story%20on%20medium&color=success&logo=medium&style=for-the-badge&logoColor=white&colorA=grey)](https://hackernoon.com/coders-way-of-wishing-happy-birthday-1fe457e7a2ba)
 
 ## Thanks! I'm social!
 
