@@ -6,7 +6,7 @@ def encrypt(text,s):
     result = "" 
   
     # traverse text 
-    for i in range(len(text)): 
+    for i, char in enumerate(text): 
         char = text[i] 
   
         # Dencrypt uppercase characters 
