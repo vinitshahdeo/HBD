@@ -12,7 +12,6 @@ int main()
             i==16||i==18||i==19||i==20||i==22||i==24)
             cout << ch<< ch ;
         else cout << "  " ;
-        
     }
     
     // Print second row
@@ -23,7 +22,6 @@ int main()
            ||i==18||i==20||i==22||i==24)
             cout << ch<< ch ;
         else cout << "  " ;
-        
     }
     
     // Print third row
@@ -35,7 +33,6 @@ int main()
             i==22||i==23||i==24)
             cout << ch<< ch ;
         else cout << "  " ;
-        
     }
     
     // Print fourth row
@@ -45,7 +42,6 @@ int main()
         if (i==5||i==7||i==9||i==12||i==14||i==18||i==23)
             cout << ch<< ch ;
         else cout << "  " ;
-        
     }
     
     // Print fifth row
@@ -55,7 +51,6 @@ int main()
         if (i==5||i==7||i==9||i==12||i==14||i==18||i==23)
             cout << ch<< ch ;
         else cout << "  " ;
-        
     }
     
     // Happy is printed, now print
