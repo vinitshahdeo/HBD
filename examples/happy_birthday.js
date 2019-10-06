@@ -1,0 +1,1 @@
+console.log('\x1b[36m Happy\x1b[34m Birthday\x1b[35m !');
