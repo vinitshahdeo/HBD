@@ -37,6 +37,10 @@
 
 > #### Click [here](http://codeastrike.000webhostapp.com/hbd/) to view live demo!
 
+### Designing another [website](https://codepen.io/randomname-akh/pen/gOOOzPB) to celebrate your loved one's day!
+
+> #### Click [here](https://codepen.io/randomname-akh/pen/gOOOzPB) to view live demo!
+
 ### Find some [more](https://medium.com/@vinitshahdeo/coders-way-of-wishing-happy-birthday-1fe457e7a2ba) creative ways!
 
 [![Kill it](https://forthebadge.com/images/badges/oooo-kill-em.svg)](https://forthebadge.com) [![Vinit Shahdeo](https://forthebadge.com/images/badges/powered-by-oxygen.svg)](https://facebook.com/vinit.shahdeo)
