@@ -61,6 +61,12 @@ int main(void) {
 }
 ```
 
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/fuck-it-ship-it.svg)](https://forthebadge.com)  
+Brainfuck, go to https://copy.sh/brainfuck/ and paste code below
+```brainfuck
+-[------->+<]>-.[--->++++<]>+.-[++>-----<]>..+++++++++.-[---->+<]>++.+[->++<]>.-[--->+<]>--.+++++++++.++.------------.----.---.+[--->+<]>+++.-[---->+<]>+++.
+```
+
 > Click [here](https://gist.github.com/vinitshahdeo/28665b5a010b92cf96cd1abced0a2a9e) to view above gist!
 
 [![Medium Story](https://img.shields.io/static/v1.svg?label=check&message=story%20on%20medium&color=success&logo=medium&style=for-the-badge&logoColor=white&colorA=grey)](https://medium.com/hackernoon/coders-way-of-wishing-happy-birthday-1fe457e7a2ba)
