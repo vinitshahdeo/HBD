@@ -1,0 +1,36 @@
+<html>
+<head>
+    <style>
+        #container{
+            width: 500px;
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+<script type="text/javascript">
+    function changeThis(){
+
+        let text = 'Happy Birthday! Please go to your console!';
+
+        let formInput = document.getElementById('theInput').value + ' ';
+        document.getElementById('newText').innerHTML = formInput + text;
+        console.log('%cHappy Birthday to You\n' +
+            'Happy Birthday to You\n' +
+            'Happy Birthday Dear \n' + formInput +
+            'Happy Birthday to You.\n' +
+            '\n' +
+            'From good friends and true,\n' +
+            'From old friends and new,\n' +
+            'May good luck go with you,\n' +
+            'And happiness too.', "color: Green; font-size: 25px;");
+    }
+</script>
+<div id="container">
+    <input type='text' id='theInput' value='Name here' />
+    <input type='button' onclick='changeThis()' value='Go'><br>
+    <span id='newText'></span>
+</div>
+
+</body>
+</html>
