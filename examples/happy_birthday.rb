@@ -1,7 +1,7 @@
 class Card
   attr_accessor :event, :person
 
-  def initialize(event, person)    
+  def initialize(event, person)
     @event = event
     @person = person
   end
