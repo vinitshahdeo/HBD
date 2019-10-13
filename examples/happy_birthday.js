@@ -1,0 +1,1 @@
+console.log('%cHappy Birthday', 'color: white; background-color: blue; padding: 2px 5px; border-radius: 2px');
