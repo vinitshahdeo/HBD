@@ -2,7 +2,8 @@
 #include <sys/types.h>
 #include <string.h>
 int main(){
-	char n[10],ch = ';';
+	char n[10],
+	char ch = ';';
 	int i,a,b;
  	for(i=0; i<34; i++)
  	{
