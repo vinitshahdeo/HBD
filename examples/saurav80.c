@@ -1,122 +1,36 @@
-#include<stdio.h>
-#include <sys/types.h>
-#include <string.h>
-int main(){
-	char n[10],
-	char ch = ';';
-	int i,a,b;
- 	for(i=0; i<34; i++)
- 	{
- 		if (i==4||i==6||i==9||i==10||i==13||i==14||
- 			i==15||i==17||i==18||i==19||i==21||i==23)
- 			printf("%c",ch) ;
- 		else
-			printf(" ") ;
- 	}
- 	printf("\n");
+//     ______________________________
+//    |created by SAURAV JAISWAL🇮🇳|
+//    |    Date --  15/10/2019       | 
+//    |______________________________|
 
- 	for(i=0; i<34; i++)
- 	{
- 		if(i==4||i==6||i==8||i==11||i==13||i==15||
-			i==17||i==19||i==21||i==23)
- 			printf("%c",ch) ;
-	 	else
-			printf(" ") ;
- 	}
- 	printf("\n");
+#include <io.h>
+#include <fcntl.h>
+#include <stdio.h>
 
- 	for (i=0; i<34; i++)
- 	{
- 		if (i==4||i==5||i==6||i==8||i==9||i==10||i==11||
- 			i==13||i==14||i==15||i==17||i==18||i==19||
- 			i==21||i==22||i==23)
-			printf("%c",ch) ;
-	 	else
-			printf(" ") ;
- 	}
- 	printf("\n");
+#define C L"\u2592"
+#define B L"\u2593"
+#define A L"\u2594"
+void utf16(){_setmode(fileno(stdout),_O_U16TEXT);wprintf(L"\xfeff");}
 
- 	for (i=0; i<34; i++)
- 	{
- 		if (i==4||i==6||i==8||i==11||i==13||i==17||i==22)
- 			printf("%c",ch) ;
-	 	else
-			printf(" ") ;
- 	}
- 	printf("\n");
+int main() {
+    utf16();
+    
+     fputws(L"🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉",stdout);
+     
+     fputws(L"🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊",stdout);
+     
 
- 	for (int i=0; i<34; i++)
- 	{
- 		if (i==4||i==6||i==8||i==11||i==13||i==17||i==22)
- 			printf("%c",ch) ;
-	 	else
-			printf(" ") ;
- 	}
- 	printf("\n");
-	printf("\n");
-
-	for (i=0; i<34; i++)
- 	{
- 		if (i==1||i==2||i==3||i==5||i==6||i==7||i==9||
- 			i==10||i==13||i==14||i==15||i==17||i==19||
- 			i==21||i==22||i==26||i==27||i==30||i==32)
- 			printf("%c",ch) ;
-	 	else
-			printf(" ") ;
- 	}
- 	printf("\n");
-
- 	for(i=0; i<34; i++)
- 	{
- 		if (i==1||i==3||i==6||i==9||i==11||
- 			i==14||i==17||i==19||i==21||i==23||
- 			i==25||i==28||i==30||i==32)
- 			printf("%c",ch) ;
-	 	else
-			printf(" ") ;
- 	}
- 	printf("\n");
-
- 	for (i=0; i<34; i++)
- 	{
- 		if (i==1||i==2||i==3||i==6||i==9||i==10||
- 			i==14||i==17||i==18||i==19||i==21||
- 			i==23||i==25||i==26||i==27||i==28||i==30||
-			i==31||i==32)
- 			printf("%c",ch) ;
-	 	else
-			printf(" ") ;
- 	}
- 	printf("\n");
-
- 	for (i=0; i<34; i++)
- 	{
- 		if (i==1||i==3||i==6||i==9||i==11||
- 			i==14||i==17||i==19||i==21||
- 			i==23||i==25||i==28||i==31)
- 			printf("%c",ch) ;
-	 	else
-			printf(" ") ;
- 	}
- 	printf("\n");
-
- 	for (i=0; i<34; i++)
- 	{
- 		if (i==1||i==2||i==3||i==5||i==6||i==7||
- 			i==9||i==11||i==14||i==17||i==19||
- 			i==22||i==21||i==25||i==28||i==31)
- 			printf("%c",ch) ;
-	 	else
-			printf(" ") ;
- 	}
- 	printf("\n");
-	printf("\n");
-
-
-
-
-
-
-	return 0;
-
+      fputws(L"\n\t              ¡ ¡*¡ ¡", stdout);
+     
+fputws(L"\n\t\t       \u2593\u2592\u2592\u2592\u2592\u2593", stdout);
+     wprintf(L"\n\t\t     %s%s%s%s%s%s%s%s%s%s",B,C,C,C,C,C,C,C,C,B);
+     
+    wprintf(L"\n\t\t   %s%s%s%s%s%s%s%s%s%s%s%s%s%s",B,C,C,C,C,C,C,C,C,C,C,C,C,B);
+    
+    wprintf(L"\n\t\t  %s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s\t🗡️",B,C,C,C,C,C,C,C,C,C,C,C,C,C,C,B);
+    wprintf(L"\n\t\t%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s",A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A);
+    
+wprintf(L"\n\t        🎂 HAPPY BIRTHDAY 🎂");
+    
+    return 0;
 }
