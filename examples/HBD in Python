@@ -1,0 +1,34 @@
+from datetime import *
+
+today = date.today()
+print("Today: " +  today.strftime('%A %d, %b %Y'))
+
+dob_str = input("What is your Date of Birth? dd/mm/yyyy")
+dob_data = dob_str.split("/")
+dobDay = int(dob_data[0])
+dobMonth = int(dob_data[1])
+dobYear = int(dob_data[2])
+dob = date(dobYear,dobMonth,dobDay)
+
+numberOfDays = (today - dob).days 
+
+age = numberOfDays // 365
+print("You are " + str(age) + " years old.")
+
+day = dob.strftime("%A")
+print("You were born on a " + day + ".")
+
+print("You have spent " + str(numberOfDays) + " days on Earth.")
+
+thisYear = today.year
+
+nextBirthday = date(thisYear,dobMonth,dobDay)
+if today<nextBirthday:
+  gap = (nextBirthday - today).days
+  print("Your birhday is in " + str(gap) + " days.")
+elif  today == nextBirthday:
+  print("Today is your birthday! Happy Birthday!")
+else:
+  nextBirthday = date(thisYear+1,dobMonth,dobDay)
+  gap = (nextBirthday - today).days
+  print("Your birthday is in " + str(gap) + " days.")
