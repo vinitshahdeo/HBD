@@ -5,6 +5,6 @@ import binascii
 import base64
 
 wishOne = binascii.crc32(b"Happy Birthday fellow earthling!")
-wishTwo = base64.b64encode(b'May the Peace be with You')
+wishTwo = base64.b64encode(b'May the Force be with You')
 
 print(wishOne, wishTwo)
