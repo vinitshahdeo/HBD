@@ -13,7 +13,6 @@ public class Main
    
     } 
    
-    // Print second row 
     System.out.println(); 
     for(int i=1; i<=34; i++) 
     { 
@@ -24,7 +23,6 @@ public class Main
    
     } 
    
-    // Print third row 
     System.out.println(); 
     for (int i=1; i<=34; i++) 
     { 
@@ -38,7 +36,6 @@ public class Main
    
     } 
    
-    // Print fourth row 
     System.out.println(); 
     for (int i=1; i<=34; i++) 
     { 
@@ -49,7 +46,6 @@ public class Main
    
     } 
    
-    // Print fifth row 
     System.out.println(); 
     for (int i=1; i<=34; i++) 
     { 
@@ -60,8 +56,6 @@ public class Main
    
     } 
    
-    // Happy is printed, now print 
-    // birthday row by row 
     System.out.println(); 
     System.out.println(); 
     System.out.println(); 
