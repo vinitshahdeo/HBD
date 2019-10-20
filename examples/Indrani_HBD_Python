@@ -1,0 +1,41 @@
+import datetime
+
+doubleDigit = """ 
+*    *   ***    ****
+*    *   *    *   *     *
+*    *   *    *   *      *
+****   ***     *       *
+*    *   *    *   *      *
+*    *   *    *   *     *
+*    *   ***    ****
+"""
+
+singleDigit = """
+*    *   *****    *****
+*    *   *    *   *    *
+*    *   *    *   *     *
+******   *****    *     *
+*    *   *    *   *     *
+*    *   *    *   *    *
+*    *   ****     ****
+"""
+year = input("enter the birth year of the person: ")
+yearIntUser = int(year)
+
+date = datetime.datetime.now()
+print(date.year)
+yearInt = date.year
+
+print("Age is: ", yearInt - yearIntUser)
+age = yearInt - yearIntUser
+
+if 10 > int(age) > -1:
+    string = singleDigit
+elif 10 <= int(age) < 100:
+    string = doubleDigit
+else:
+    print("Invalid age")
+
+age_str = str(age)
+b = string.replace("*", age_str)
+print(b)
