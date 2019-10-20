@@ -19,14 +19,13 @@ singleDigit = """
 *    *   *    *   *    *
 *    *   ****     ****
 """
-year = input("enter the birth year of the person: ")
+year = input("Enter your birth year: ")
 yearIntUser = int(year)
 
 date = datetime.datetime.now()
-print(date.year)
 yearInt = date.year
 
-print("Age is: ", yearInt - yearIntUser)
+print("Today you turned "+str(yearInt - yearIntUser)+" years old")
 age = yearInt - yearIntUser
 
 if 10 > int(age) > -1:
