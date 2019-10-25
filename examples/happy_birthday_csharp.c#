@@ -11,15 +11,16 @@ namespace HappyBirthday
     {
         public static void Main(string[] args)
         {
-            var lettersArray = new string[] { "01001000", "01100001", "01110000", "01110000", "01111001",
+            var binaryArray = new string[] { "01001000", "01100001", "01110000", "01110000", "01111001",
                 "00100000", "01000010", "01101001", "01110010", "01110100", "01101000", "01100100", "01100001", "01111001", "00100001" };
 
             var message = default(string);
-            foreach (var letter in lettersArray)
+            foreach (var binary in binaryArray)
             {
-                message += BinaryToString(letter);
+                message += BinaryToString(binary);
             }
 
+            // print Happy Birthday!
             Console.WriteLine(message);
         }
 
