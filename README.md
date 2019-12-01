@@ -65,6 +65,24 @@ int main(void) {
 
 [![Medium Story](https://img.shields.io/static/v1.svg?label=check&message=story%20on%20medium&color=success&logo=medium&style=for-the-badge&logoColor=white&colorA=grey)](https://medium.com/hackernoon/coders-way-of-wishing-happy-birthday-1fe457e7a2ba)
 
+## Contributing
+
+#### Do you have any creative idea of saying "[Happy Birthday](https://medium.com/hackernoon/coders-way-of-wishing-happy-birthday-1fe457e7a2ba)"?
+
+```js
+console.log('Happy Birthday!');
+```
+
+- Fork [this](https://github.com/vinitshahdeo/HBD/) repository.
+
+- Add your code-snippet inside `examples/` folder.
+
+- **Create PR. Your PR description should include the language of your `code-snippet`. It'll be better if you've provide a link to any online code sandbox where your code-snippet can be run.**
+
+- Do not make any changes to other files.
+
+> Check this [issue](https://github.com/vinitshahdeo/HBD/issues/1).
+
 ## Thanks! I'm social!
 
 **Lemme know, if you've got better idea. I'd love to hear how *[these](https://medium.com/@vinitshahdeo/coders-way-of-wishing-happy-birthday-1fe457e7a2ba) `code` [snippets](https://medium.com/@vinitshahdeo/coders-way-of-wishing-happy-birthday-1fe457e7a2ba)* have helped you to impress someone.**
