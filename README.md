@@ -67,6 +67,8 @@ int main(void) {
 
 ## Contributing
 
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?logo=github&style=for-the-badge&color=teal)](https://github.com/vinitshahdeo/HBD/pulls) [![GitHub issues](https://img.shields.io/github/issues/vinitshahdeo/HBD?logo=github&style=for-the-badge)](https://github.com/vinitshahdeo/HBD/issues) ![GitHub pull requests](https://img.shields.io/github/issues-pr/vinitshahdeo/HBD?color=blue&logo=github&style=for-the-badge) 
+
 #### Do you have any creative idea of saying "[Happy Birthday](https://medium.com/hackernoon/coders-way-of-wishing-happy-birthday-1fe457e7a2ba)"?
 
 ```js
