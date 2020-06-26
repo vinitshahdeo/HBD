@@ -90,3 +90,5 @@ console.log('Happy Birthday!');
 **Lemme know, if you've got better idea. I'd love to hear how *[these](https://medium.com/@vinitshahdeo/coders-way-of-wishing-happy-birthday-1fe457e7a2ba) `code` [snippets](https://medium.com/@vinitshahdeo/coders-way-of-wishing-happy-birthday-1fe457e7a2ba)* have helped you to impress someone.**
 
 <a href="https://www.facebook.com/vinit.shahdeo/" target="_blank"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/facebook.svg" /></a> &nbsp;&nbsp;<a href="https://twitter.com/Vinit_Shahdeo" target="_blank"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/twitter.svg" /></a> &nbsp;&nbsp;<a href="https://www.instagram.com/vinitshahdeo/" target="_blank"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/instagram.svg" /></a>
+
+[![Made with love by Vinit Shahdeo](https://badgen.net/badge/Made%20with%20%E2%99%A1%20by/vinitshahdeo?icon=github&scale=1.1)](https://www.eatmy.news/2020/06/code-like-you-eat-i-mean-code-daily-as.html)
