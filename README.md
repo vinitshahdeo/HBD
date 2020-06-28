@@ -92,3 +92,10 @@ console.log('Happy Birthday!');
 <a href="https://www.facebook.com/vinit.shahdeo/" target="_blank"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/facebook.svg" /></a> &nbsp;&nbsp;<a href="https://twitter.com/Vinit_Shahdeo" target="_blank"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/twitter.svg" /></a> &nbsp;&nbsp;<a href="https://www.instagram.com/vinitshahdeo/" target="_blank"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/instagram.svg" /></a>
 
 [![Made with love by Vinit Shahdeo](https://badgen.net/badge/Made%20with%20%E2%99%A1%20by/vinitshahdeo?icon=github&scale=1.1)](https://www.eatmy.news/2020/06/code-like-you-eat-i-mean-code-daily-as.html)
+
+
+-----
+
+<p align="center"><strong><sup>:hugs: <br>Check out my other projects <a href="./PROJECTS.md">here</a>!</sup></strong></p>
+
+-----
