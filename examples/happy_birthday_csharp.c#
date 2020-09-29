@@ -1,0 +1,38 @@
+/*
+ * author: jaywahr
+ */
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace HappyBirthday
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            var binaryArray = new string[] { "01001000", "01100001", "01110000", "01110000", "01111001",
+                "00100000", "01000010", "01101001", "01110010", "01110100", "01101000", "01100100", "01100001", "01111001", "00100001" };
+
+            var message = default(string);
+            foreach (var binary in binaryArray)
+            {
+                message += BinaryToString(binary);
+            }
+
+            // print Happy Birthday!
+            Console.WriteLine(message);
+        }
+
+        private static string BinaryToString(string data)
+        {
+            List<Byte> byteList = new List<Byte>();
+
+            for (int i = 0; i < data.Length; i += 8)
+            {
+                byteList.Add(Convert.ToByte(data.Substring(i, 8), 2));
+            }
+            return Encoding.ASCII.GetString(byteList.ToArray());
+        }
+    }
+}
