@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+<body>
+
+<p id="demo"></p>
+<script>
+
+var text="HAPPY BIRTHDAY!";
+var message="";
+var i=0;
+
+function printSomething () {
+  message+=text.charAt(i);
+  document.getElementById("demo").innerHTML = message;
+  i++;
+  return;
+}
+
+setInterval(printSomething ,300);
+</script>
+
+</body>
+
+</html>
