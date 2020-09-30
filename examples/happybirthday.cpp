@@ -9,11 +9,11 @@ void slowPrint(unsigned long speed, const char *s) {
 	while(s[i]!=0) {
 		cout << s[i++];
 		cout.flush();
-		usleep(speed);
+		sleep(speed);
 	}
 }
 
 int main() {
-	slowPrint(200000, "HAPPY BIRTHDAY!");
+	slowPrint(1, "HAPPY BIRTHDAY!");
 	return 0;
 }
