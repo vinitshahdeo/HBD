@@ -1,5 +1,5 @@
 // @author meghnabajoria
-
+package java.util;
 public class Happybirthday
 {
 	public static void decode(String str,int len)
