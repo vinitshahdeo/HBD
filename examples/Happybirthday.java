@@ -7,13 +7,13 @@ public class Happybirthday
 		int n=0;
 		for(int i=0;i<len;i++)
 		{
-            n = n * 10 + (str.charAt(i) - '0');
-            if (n >= 32 && n <= 122) 
-            {
-                char ch = (char)n;  
-                System.out.print(ch); 
-                n = 0;
-            }
+			n = n * 10 + (str.charAt(i) - '0');
+			if (n >= 32 && n <= 122) 
+			{
+				char ch = (char)n;  
+				System.out.print(ch); 
+				n = 0;
+			}
 		}
 	}
 	public static void main(String args[])
