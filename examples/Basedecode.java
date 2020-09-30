@@ -1,5 +1,5 @@
 //@author meghnabajoria
-import java.util.*;
+package java.util;
 public class Basedecode
 {
 	public static void main(String[] args)
