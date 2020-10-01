@@ -1,3 +1,3 @@
-let name = prompt("Enter your name");
+var name = "Hacktoberfest";
 
 console.log("Happy birthday 🎂 " + name);
