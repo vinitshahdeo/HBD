@@ -22,5 +22,5 @@ array = np.array(pixelTuple, dtype=np.uint8)
 new_image = Image.fromarray(array)
 new_image.save('happybirthday.png')
 
-# We can conceal the text from the image to find the hidden birthday wish 
+# We can reveal the text from the image to find the hidden birthday wish 
 # by reversing the process.
