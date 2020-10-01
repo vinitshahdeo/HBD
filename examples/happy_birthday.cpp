@@ -1,7 +1,6 @@
 #include<vector>
 using namespace std;
 void dfs(int i, int j, vector<vector<char>>& hbd, vector<vector<int>>& visited) {
-    
     if(i<0 || j<0 || i>=hbd.size() || j>=hbd[0].size() || visited[i][j])
         return;
     
@@ -15,10 +14,7 @@ void dfs(int i, int j, vector<vector<char>>& hbd, vector<vector<int>>& visited) 
     dfs(i-1, j, hbd, visited);
     
 }
-
-
 int main() { 
-    
     vector<vector<char>> hbd{
         {'H','!','!','!'},
         {'A','D','A','Y'},
