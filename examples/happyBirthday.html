@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthdaay</title>
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+body{
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255,255,255,.75);
+  font-family: 'Anonymous Pro', monospace;  
+  background-color: rgb(25,25,25);
+}
+
+.type-container{
+  position: relative;
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+}
+
+#line{
+  position: relative;
+}
+
+.cursor{
+  height: 2rem;
+  width: 2px;
+  margin-left:2px;
+  background: rgba(255,255,255,.75);
+  animation: blinkTextCursor 800ms infinite;
+}
+
+@keyframes blinkTextCursor{
+  from{opacity: 1;}
+  to{opacity: 0;}
+}
+    </style>
+</head>
+<body>
+
+
+
+    <div class="type-container">
+        <p id="line"></p>
+        <div class="cursor"></div>
+      </div>
+      
+    <script>
+        var line = document.getElementById("line")
+var txts = ['"Happy Birthday to You"', '"Many Many Happy Returns of the Day"','"I hope your day is full of fun and celebration."'];
+var speed = 100
+
+async function typewriter(txt) {
+  for(let i = 0; i < txt.length; i++){
+    line.innerHTML += txt.charAt(i);
+    await delay(speed) 
+  }
+}
+
+async function reverseTypewriter(txt) {
+  for(let i = txt.length; i > 0; i--){
+    line.innerHTML = line.innerHTML.slice(0,-1)
+    await delay(speed)
+  }
+}
+
+async function writeLoop(){
+  
+  for(let i = 0; i < txts.length; i++){
+    await typewriter(txts[i])
+    await delay(1000)
+    await reverseTypewriter(txts[i])
+    await delay(300)
+  }
+  
+  writeLoop()
+}
+
+function delay(ms){
+  return new Promise((resolve)=>{setTimeout(()=>{resolve()},ms)})
+}
+
+writeLoop()
+    </script>
+</body>
+</html>
