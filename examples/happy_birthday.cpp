@@ -4,12 +4,12 @@
 
 using namespace std;
 
-void PrtSlw(unsigned long spd, const char *s) {
+void PrtSlw(unsigned long textspd, const char *a) {
 	int i = 0;
-	while(s[i]!=0) {
-		cout << s[i++];
+	while(a[i]!=0) {
+		cout << a[i++];
 		cout.flush();
-		usleep(spd);
+		usleep(textspd);
 	}
 }
 
