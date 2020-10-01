@@ -1,5 +1,5 @@
 #!/bin/bash
 
 echo "Enter Your Name: "
-read birthdayname
+read -r birthdayname
 echo "Happy birthaday   🙌 🍰🎈🎉🎁🕯  $birthdayname"
