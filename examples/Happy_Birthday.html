@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=">
+    <title></title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: radial-gradient(#80adc3, #495e69);
+            font-family: 'Poppins', sans-serif;
+            letter-spacing: 8px;
+        }
+
+        h1 {
+            margin: 0;
+            padding: 0;
+            font-size: 5em;
+            color: #fff;
+            text-transform: uppercase;
+            transform: rotate(-20deg) skew(25deg);
+            border: 5px solid;
+            border-radius: 110px;
+            animation: animate 5s ease-in-out infinite;
+        }
+
+        @keyframes animate {
+
+            0%,
+            100% {
+                transform: rotate(-20deg) skew(25deg) translate(0, 0);
+                text-shadow: -5px 5px 0 rgba(0, 0, 0, .2);
+            }
+
+            50% {
+                transform: rotate(-20deg) skew(25deg) translate(50px, -50px);
+                text-shadow: -50px 50px 0 rgba(0, 0, 0, .2);
+                filter: blur(15px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>HAPPY BIRTHDAY</h1>
+</body>
+
+</html>
