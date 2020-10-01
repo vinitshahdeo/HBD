@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy BirthDay!</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js">
+</head>
+
+<body>
+    <style>
+        body {
+            background: #621F5E;
+        }
+
+        h1 {
+            font-weight: 600;
+            font-family: sans-serif;
+        }
+
+        .bcg {
+            background: orange;
+            width: 300px;
+            height: 500px;
+            margin: auto;
+            position: absolute;
+            left: 0;
+            right: 0;
+        }
+
+        .table {
+            border-bottom: 130px solid #933C3C;
+            border-left: 20px solid transparent;
+            border-right: 20px solid transparent;
+            height: 0;
+            border-radius: 20px;
+            width: 308px;
+            position: relative;
+            top: 380px;
+            right: 23px;
+
+        }
+
+        .legs,
+        .legs-1,
+        .legs-2,
+        .legs-3 {
+            position: absolute;
+            top: 130px;
+            width: 10px;
+            height: 100px;
+            background: black;
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+        }
+
+        .legs-1 {
+            left: 300px;
+
+        }
+
+        .legs-2 {
+            height: 50px;
+            left: 50px;
+        }
+
+        .legs-3 {
+            height: 50px;
+            left: 250px;
+        }
+
+        .girl {
+            position: absolute;
+            top: 50px;
+        }
+
+
+        .hair1 {
+            height: 70px;
+            width: 140px;
+            border-top-left-radius: 70px;
+            border-top-right-radius: 70px;
+            background-color: black;
+            position: relative;
+            top: 30px;
+            left: 95px;
+        }
+
+        .hair2 {
+            width: 140px;
+            height: 180px;
+            background-color: black;
+            position: relative;
+            border-radius: 0px 0px 60px 60px;
+            top: 62.5px;
+        }
+
+        .face {
+            background-color: #ffecb3;
+            height: 90px;
+            width: 110px;
+            border-bottom-left-radius: 70px;
+            border-bottom-right-radius: 70px;
+            position: relative;
+            left: 15px;
+
+        }
+
+        .eyel {
+            background-color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            position: relative;
+            top: 16px;
+            left: 9px;
+
+        }
+
+        .eyer {
+            background-color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            position: relative;
+            bottom: 14px;
+            left: 70px;
+        }
+
+        .eyeball1,
+        .eyeball2 {
+            position: relative;
+            height: 20px;
+            width: 20px;
+            background-color: black;
+            border-radius: 50%;
+            top: 4px;
+            left: 4.5px;
+        }
+
+        .dot1,
+        .dot3 {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: white;
+            position: relative;
+            top: 4px;
+        }
+
+        .dot1 {
+            left: 2px;
+        }
+
+        .dot3 {
+            left: 10px;
+        }
+
+        .dot2,
+        .dot4 {
+            width: 3px;
+            height: 3px;
+            background-color: white;
+            position: relative;
+            top: 4px;
+            border-radius: 50%;
+        }
+
+        .dot2 {
+            left: 14px;
+        }
+
+        .dot4 {
+            left: 5px;
+        }
+
+        .belt {
+            background-color: green;
+            height: 55px;
+            width: 110px;
+            border-top-left-radius: 70px;
+            border-top-right-radius: 70px;
+            bottom: 143px;
+            left: 14.5px;
+            position: relative;
+        }
+
+        .belt1 {
+            background-color: black;
+            height: 56px;
+            width: 112px;
+            border-top-left-radius: 70px;
+            border-top-right-radius: 70px;
+            position: relative;
+            left: -0.5px;
+            top: 7px;
+        }
+
+        .mouth {
+            background-color: red;
+            height: 25px;
+            width: 50px;
+            left: 29px;
+            bottom: 5px;
+            border-bottom-left-radius: 70px;
+            border-bottom-right-radius: 70px;
+            position: relative;
+        }
+
+        .dress {
+            z-index: 100;
+            background: repeating-linear-gradient(45deg, black, red 20px, green 10px);
+            width: 120px;
+            height: 130px;
+            border-radius: 35px 35px 0px 0px;
+            position: relative;
+            top: 18px;
+            right: 6px;
+        }
+
+        .neck {
+            background-color: #ffecb3;
+            position: relative;
+            height: 40px;
+            width: 30px;
+            border-radius: 0px 0px 15px 15px;
+            bottom: 130px;
+            left: 40px;
+        }
+
+        .earl,
+        .earr {
+            background-color: #ffecb3;
+            position: relative;
+            height: 10px;
+            width: 20px;
+
+            border-top-left-radius: 70px;
+            border-top-right-radius: 70px;
+        }
+
+        .earl {
+            transform: rotate(-90deg);
+            right: 5px;
+            bottom: 118px;
+        }
+
+        .earr {
+            transform: rotate(90deg);
+            left: 124px;
+            bottom: 127px;
+        }
+
+        .hand-1,
+        .hand-2 {
+            position: absolute;
+            width: 25px;
+            height: 120px;
+            background: #FFECB3;
+            border-radius: 50px;
+        }
+
+        .hand-1 {
+            top: 115px;
+            left: -42px;
+            transform: rotate(40deg);
+        }
+
+        .hand-2 {
+            top: 110px;
+            left: 120px;
+            transform: rotate(140deg);
+        }
+
+        .cake {
+            background-color: #ff6666;
+            width: 180px;
+            height: 70px;
+            z-index: 510;
+            position: relative;
+            top: 300px;
+            left: 70px;
+        }
+
+        .strip1 {
+            width: 180px;
+            height: 10px;
+            background-color: #ffffb3;
+            position: relative;
+            top: 30px;
+        }
+
+        .cake1 {
+            background-color: #FF6666;
+            width: 140px;
+            height: 60px;
+            bottom: 70px;
+            left: 22px;
+            position: relative;
+
+
+        }
+
+        .strip2 {
+            width: 140px;
+            height: 10px;
+            top: 30px;
+            background-color: #ffffb3;
+            position: relative;
+
+        }
+
+        .d1,
+        .d2,
+        .d3,
+        .d4,
+        .d5,
+        .d6,
+        .d7,
+        .d8,
+        .d9 {
+            border-bottom-left-radius: 70px;
+            border-bottom-right-radius: 70px;
+            position: relative;
+            height: 10px;
+            width: 20px;
+            background-color: yellow;
+        }
+
+        .d1 {
+            bottom: 10px;
+        }
+
+        .d2 {
+            left: 20px;
+            bottom: 20px;
+        }
+
+        .d3 {
+            left: 40px;
+            bottom: 30px;
+        }
+
+        .d4 {
+            left: 60px;
+            bottom: 40px;
+        }
+
+        .d5 {
+            left: 80px;
+            bottom: 50px;
+        }
+
+        .d6 {
+            left: 100px;
+            bottom: 60px;
+        }
+
+        .d7 {
+            left: 120px;
+            bottom: 70px
+        }
+
+        .d8 {
+            left: 140px;
+            bottom: 80px;
+        }
+
+        .d9 {
+            bottom: 90px;
+            left: -20px;
+        }
+
+        .drip {
+            position: relative;
+            bottom: 10px;
+            right: 1.5px;
+        }
+
+        .candle {
+            height: 40px;
+            width: 15px;
+            z-index: 800;
+            background-color: #dfff80;
+            position: relative;
+            top: 210px;
+            left: 157px;
+
+        }
+
+        .c1,
+        .c2,
+        .c3,
+        .c4,
+        .c5,
+        .c6,
+        .c7 {
+            height: 15px;
+            width: 15px;
+            border-radius: 50%;
+            position: relative;
+            background-color: #69FAF5;
+        }
+
+        .c1 {
+            bottom: 185px;
+        }
+
+        .c2 {
+            bottom: 200px;
+            left: 20px;
+        }
+
+        .c3 {
+            bottom: 215px;
+            left: 40px;
+        }
+
+        .c4 {
+            bottom: 230px;
+            left: 60px;
+        }
+
+        .c5 {
+            bottom: 245px;
+            left: 80px;
+        }
+
+        .c6 {
+            bottom: 260px;
+            left: 100px;
+        }
+
+        .c7 {
+            bottom: 275px;
+            left: 120px;
+        }
+
+        .flame {
+            width: 15px;
+            height: 7.5px;
+            position: relative;
+            background-color: #ffcc00;
+            bottom: 8px;
+            border-bottom-left-radius: 70px;
+            border-bottom-right-radius: 70px;
+        }
+
+
+        .flame1 {
+            width: 0;
+            height: 0;
+            border-left: 7.5px solid transparent;
+            border-right: 7.5px solid transparent;
+            border-bottom: 15px solid #ffcc00;
+            position: relative;
+            bottom: 15px;
+        }
+    </style>
+
+    <div class="bcg">
+        <div class="table">
+            <div class="legs"></div>
+            <div class="legs-1"></div>
+            <div class="legs-2"></div>
+            <div class="legs-3"></div>
+        </div>
+        <div class="girl">
+            <div class="hair1">
+                <div class="hair2">
+
+                    <div class="face">
+                        <div class="eyel">
+                            <div class="eyeball1">
+
+                            </div>
+                        </div>
+                        <div class="eyer">
+                            <div class="eyeball2">
+
+                            </div>
+                        </div>
+                        <div class="mouth"></div>
+                        <div class="dress"></div>
+                        <div class="hand-1"></div>
+                        <div class="hand-2"></div>
+                        <div class="neck"></div>
+
+                    </div>
+                    <div class="belt">
+                        <div class="belt1"></div>
+                    </div>
+                    <div class="earl"></div>
+                    <div class="earr"></div>
+                </div>
+            </div>
+            <div class="candle">
+                <div class="flame">
+                    <div class="flame1"></div>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="cake">
+            <div class="strip1"></div>
+            <div class="cake1">
+                <div class="strip2"></div>
+                <div class="d1"></div>
+                <div class="d2"></div>
+                <div class="d3"></div>
+                <div class="d4"></div>
+                <div class="d5"></div>
+                <div class="d6"></div>
+                <div class="d7"></div>
+
+
+                <div class="drip">
+                    <div class="d1"></div>
+                    <div class="d2"></div>
+                    <div class="d3"></div>
+                    <div class="d4"></div>
+                    <div class="d5"></div>
+                    <div class="d6"></div>
+                    <div class="d7"></div>
+                    <div class="d8"></div>
+                    <div class="d9"></div>
+                </div>
+
+                <div class="c1"></div>
+                <div class="c2"></div>
+                <div class="c3"></div>
+                <div class="c4"></div>
+                <div class="c5"></div>
+                <div class="c6"></div>
+                <div class="c7"></div>
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+    <h1>Happy Birth Day</h1>
+
+    <script>
+        gsap.to(".hand-1",{rotate:50,repeat:-1,yoyo:true})
+        gsap.to(".hand-2",{rotate:130,repeat:-1,yoyo:true})
+
+    </script>
+
+</body>
+
+</html>
