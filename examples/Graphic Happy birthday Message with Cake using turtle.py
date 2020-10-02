@@ -1,5 +1,4 @@
 import turtle
-import random
 
 # sets background
 bg = turtle.Screen()
