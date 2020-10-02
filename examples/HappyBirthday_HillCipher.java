@@ -3,7 +3,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class HillCipher {
+public class HappyBirthday_HillCipher {
 
         // Generate the key matrix for the key string
         static void getKeyMatrix(String key, int keyMatrix[][])
