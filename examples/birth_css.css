@@ -2,7 +2,7 @@
 
 html, body {
   height: 100%;
-  font-weight: 800;
+    font-weight: 800;
 }
 
 body {
@@ -11,44 +11,44 @@ body {
 
 svg {
       display: block;
-      font: 7.5em 'Montserrat';
-      width: 1000px;
-      height: 300px;
-      margin: 0 auto;
+        font: 7.5em 'Montserrat';
+            width: 1000px;
+                height: 300px;
+                    margin: 0 auto;
 }
 
 .text-copy {
       fill: none;
-      stroke: white;
-      stroke-dasharray: 6% 29%;
-      stroke-width: 5px;
-      stroke-dashoffset: 0%;
-      animation: stroke-offset 5.5s infinite linear;
+        stroke: white;
+          stroke-dasharray: 6% 29%;
+            stroke-width: 5px;
+              stroke-dashoffset: 0%;
+                 animation: stroke-offset 5.5s infinite linear;
 }
 
 .text-copy:nth-child(1) {
       stroke: #4d163d;
-      animation-delay: -1;
+        animation-delay: -1;
 }
 
 .text-copy:nth-child(2) {
       stroke: #840037;
-      animation-delay: -2s;
+        animation-delay: -2s;
 }
 
 .text-copy:nth-child(3) {
       stroke: #BD0034;
-      animation-delay: -3s;
+        animation-delay: -3s;
 }
 
 .text-copy:nth-child(4) {
       stroke: #BD0034;
-      animation-delay: -4s;
+        animation-delay: -4s;
 }
 
 .text-copy:nth-child(5) {
       stroke: #fdb731;
-      animation-delay: -5s;
+        animation-delay: -5s;
 }
 
 @keyframes stroke-offset {
