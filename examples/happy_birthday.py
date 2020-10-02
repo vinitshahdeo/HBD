@@ -19,7 +19,7 @@ based on the key
 dict1 = {} 
 key = 4
    
-for i in enumerate(all_letters): 
+for i, _ in enumerate(all_letters): 
     dict1[all_letters[i]] = all_letters[(i+key)%len(all_letters)] 
    
    
@@ -48,7 +48,7 @@ text based on the key
    
       
 dict2 = {}      
-for i in enumerate(all_letters): 
+for i, _ in enumerate(all_letters): 
     dict2[all_letters[i]] = all_letters[(i-key)%(len(all_letters))] 
        
 # loop to recover plain text 
