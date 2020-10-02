@@ -9,13 +9,6 @@ import string
 all_letters= string.ascii_letters 
    
       
-'''
-create a dictionary to store the substitution  
-for the given alphabet in the plain text  
-based on the key 
-'''
-   
-      
 dict1 = {} 
 key = 4
    
@@ -37,15 +30,7 @@ for char in plain_txt:
         cipher_txt.append(temp) 
           
 cipher_txt= "".join(cipher_txt) 
-print(cipher_txt) 
-   
-      
-'''
-create a dictionary to store the substitution 
-for the given alphabet in the cipher  
-text based on the key 
-'''
-   
+print(cipher_txt)    
       
 dict2 = {}      
 for i, _ in enumerate(all_letters): 
