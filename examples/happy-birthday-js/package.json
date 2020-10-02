@@ -1,0 +1,13 @@
+{
+  "name": "happy-birthday",
+  "version": "1.0.0",
+  "description": "Happy Birthday Snippet for NodeJS",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tanmay Vij",
+  "license": "ISC"
+}
