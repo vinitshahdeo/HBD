@@ -1,0 +1,26 @@
+import java.time.LocalDate;
+import java.time.Month;
+
+public class Main {
+   public static void main(String args[]) {
+
+     int birthDate = 23;
+    Month birthMonth = Month.SEPTEMBER;                                    // here declaring variables for birthday
+    
+    
+    
+    LocalDate currentDate = LocalDate.now();                                // get current date
+    System.out.println("Todays Date: " + currentDate);
+
+   
+    int date = currentDate.getDayOfMonth();                                 // get current date and month
+    Month month = currentDate.getMonth();
+
+    if(date == birthDate && month == birthMonth) {
+      System.out.println("HAPPY BIRTHDAY TO YOU !!");
+    }
+    else {
+      System.out.println("Today is not my birthday.");
+    }
+   }
+}
