@@ -26,7 +26,7 @@ int main() {
             )");
     wish.append("\n");
     time_t Time = time(0) + 19800;
-    tm* LT = localtime(&Time);
+    tm* LT = localtime_r(&Time);
     cin >> day >> x >> month >> x >> year;
     string waitFor = "Wait until " + nameOfMonths[month-1] + " " + to_string(day) + ", ";
     waitFor.append((LT->tm_mon<month-1)? to_string(LT->tm_year + 1900) : (LT->tm_mon==month-1 && LT->tm_mday<day) ? to_string(LT->tm_year + 1900) : to_string(LT->tm_year + 1901));
