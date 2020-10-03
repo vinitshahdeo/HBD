@@ -1,0 +1,2 @@
+a="happybirthday"
+print(a)
