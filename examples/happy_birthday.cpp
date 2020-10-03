@@ -39,7 +39,6 @@ std::string originalText(std::string encMessage,std::string key)
 
 int main()
 {
-
     std::string encMess="dihwujayppvhu";
     std::string key=generateKey(encMess,"wish");
     std::string text=originalText(encMess,key);
