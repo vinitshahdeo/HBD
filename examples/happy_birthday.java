@@ -1,4 +1,3 @@
-class HBD { 
 public static void main(String arg[]) { 
 	System.out.println("‎/\\„,„./\\\n" +
 "=‘•..•’=\n" +
@@ -6,5 +5,4 @@ public static void main(String arg[]) {
 "(.\\.||./.)♥¸.•*°☼*♫❤•*\"\"*•♥¸.•\n" +
 "*°☼*♫❤H░A░P░P░Y░♥B░I░R░T░H░D░A\n" +
 "░y♫❤ * ♥❤¸.•*\"\"*•.¸❤ ❤¸.•*\"\"*•.¸❤ ❤¸.•*\"\"*•"); 
-} 
 } 
