@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            cursor: default;
+            font-family: 'Great Vibes', cursive;
+            font-size: 3vw;
+            text-align: center;
+            transform: translateY(40vh);
+            background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+            background-attachment: fixed;
+            color: whitesmoke;
+        }
+        
+        .blinking {
+            animation: blinkingText 2s infinite;
+        }
+        
+        @keyframes blinkingText {
+            0% {
+                color: transparent;
+            }
+            49% {
+                color: whitesmoke;
+            }
+            50% {
+                color: whitesmoke;
+            }
+            99% {
+                color: whitesmoke;
+            }
+            100% {
+                color: transparent;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <span class="blinking">
+        <h1>Happy Birthday</h1>
+    </span>
+</body>
+
+</html>
