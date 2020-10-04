@@ -6,7 +6,7 @@ namespace HappyBirthday
     {
         static void Main(string[] args)
         {
-            string message = "Mguu~%Gnwymif~%?.";
+            string message = "Mfuu~%Gnwymif~%?.";
 
             for (int i = 0; i < message.Length; i++)
             {
