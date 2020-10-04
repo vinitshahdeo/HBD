@@ -1,5 +1,6 @@
 /*
 @author vinitshahdeo
+for hacketober fest
 */
 #include <stdio.h>
 char *secret = "ziBbeqjAs+cu";
