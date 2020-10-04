@@ -12,8 +12,6 @@ namespace HappyBirthday
             {
                 Console.Write((char)(message[i] - 5));
             }
-
         }
-
     }
 }
