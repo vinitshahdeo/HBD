@@ -1,11 +1,11 @@
 var Page = 1;
 $( "#NxtBtn" ).click(function() {
-    if(Page == 1){
+    if(Page === 1){
         $("#FeaturePage").removeClass("hidden");
         $("#TitlePage").addClass("SlideUpFromView");
         $("#FeaturePage").addClass("SlideUpFromDown");
         }
-    Page++
+    Page++;
 });
 
 $("#Prez").click(function() {
