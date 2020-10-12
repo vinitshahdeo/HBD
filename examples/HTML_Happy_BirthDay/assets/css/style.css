@@ -51,9 +51,9 @@ body::-webkit-scrollbar {
     font-size: 10vmin;
     font-weight: 800;
     margin: 0;
-    text-align: center;
 
     animation: Title 3s 1;
+    letter-spacing: 1px;
 }
 @keyframes Title{
     0%{
@@ -63,7 +63,7 @@ body::-webkit-scrollbar {
         letter-spacing: 25px;
     }
     100%{
-        letter-spacing: 0px;
+        letter-spacing: 1px;
     }
 }
 
@@ -80,7 +80,7 @@ body::-webkit-scrollbar {
             letter-spacing: 13px;
         }
         100%{
-            letter-spacing: 0px;
+            letter-spacing: 1px;
         }
     }
 }

@@ -1,13 +1,13 @@
 var Page = 1;
-function Next(){
-    if(Page = 1){
-    $("#FeaturePage").removeClass("hidden");
-    $("#TitlePage").addClass("SlideUpFromView");
-    $("#FeaturePage").addClass("SlideUpFromDown");
-    }
+$( "#NxtBtn" ).click(function() {
+    if(Page == 1){
+        $("#FeaturePage").removeClass("hidden");
+        $("#TitlePage").addClass("SlideUpFromView");
+        $("#FeaturePage").addClass("SlideUpFromDown");
+        }
     Page++
-}
+});
 
-function prize(){
+$("#Prez").click(function() {
     $("#Prez").toggle( "explode" );
-}
+});
