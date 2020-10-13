@@ -13,7 +13,6 @@ while i<j:
     print ("")
     u+=2
     n-=1
- 
 for k in range (y):
     print ('  ',end="")
 print ("")
