@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<style>
+		body {
+			background: #222222;
+			width: 100vw;
+			height: 100vh;
+		}
+		table {
+			width: 90vw;
+			height: 35vh;
+			margin: 5vh auto;
+		}
+		.filled {
+			background-size: cover;
+		}
+		#searchbar {
+			width: 50vw;
+			margin: 30px auto;
+			text-align: center;
+		}
+		#keyword {
+			width: 100%;
+			border: 0;
+			border-bottom: 1px solid white;
+			outline: 0;
+			font-size: 1.2rem;
+			color: white;
+			padding: 7px 0;
+			background: transparent;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div id="searchbar">
+		<input id="keyword" placeholder="Enter a keyword" oninput="searchImages()"/>
+	</div>
+
+	<div>
+		<table>
+			<tr>
+				<td class="filled"></td>
+				<td></td>
+				<td class="filled"></td>
+				<td></td>
+				<td class="filled"></td>
+				<td class="filled"></td>
+				<td class="filled"></td>
+				<td></td>
+				<td class="filled"></td>
+				<td class="filled"></td>
+				<td class="filled"></td>
+				<td></td>
+				<td class="filled"></td>
+				<td class="filled"></td>
+				<td class="filled"></td>
+				<td></td>
+				<td class="filled"></td>
+				<td></td>
+				<td class="filled"></td>
+			</tr>
+			<tr>
+				<td class="filled"></td>
+				<td></td>
+				<td class="filled"></td>
+				<td></td>
+				<td class="filled"></td>
+				<td></td>
+				<td class="filled"></td>
+				<td></td>
+				<td class="filled"></td>
+				<td></td>
+				<td class="filled"></td>
+				<td></td>
+				<td class="filled"></td>
+				<td></td>
+				<td class="filled"></td>
+				<td></td>
+				<td class="filled"></td>
+				<td></td>
+				<td class="filled"></td>
+			</tr>
+			<tr>
+				<td class="filled"></td>
+				<td class="filled"></td>
+				<td class="filled"></td>
+				<td></td>
+				<td class="filled"></td>
+				<td class="filled"></td>
+				<td class="filled"></td>
+				<td></td>
+				<td class="filled"></td>
+				<td class="filled"></td>
+				<td class="filled"></td>
+				<td></td>
+				<td class="filled"></td>
+				<td class="filled"></td>
+				<td class="filled"></td>
+				<td></td>
+				<td class="filled"></td>
+				<td class="filled"></td>
+				<td class="filled"></td>
+			</tr>
+			<tr>
+				<td class="filled"></td>
+				<td></td>
+				<td class="filled"></td>
+				<td></td>
+				<td class="filled"></td>
+				<td></td>
+				<td class="filled"></td>
+				<td></td>
+				<td class="filled"></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td class="filled"></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td class="filled"></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class="filled"></td>
+				<td></td>
+				<td class="filled"></td>
+				<td></td>
+				<td class="filled"></td>
+				<td></td>
+				<td class="filled"></td>
+				<td></td>
+				<td class="filled"></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td class="filled"></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td class="filled"></td>
+				<td></td>
+			</tr>
+		</table>
+
+		<table>
+			<tr>
+				<td></td>
+				<td></td>
+				<td class="filled"></td>
+				<td class="filled"></td>
+				<td class="filled"></td>
+				<td></td>
+				<td class="filled"></td>
+				<td class="filled"></td>
+				<td></td>
+				<td></td>
+				<td class="filled"></td>
+				<td class="filled"></td>
+				<td class="filled"></td>
+				<td></td>
+				<td class="filled"></td>
+				<td></td>
+				<td class="filled"></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td class="filled"></td>
+				<td></td>
+				<td class="filled"></td>
+				<td></td>
+				<td class="filled"></td>
+				<td></td>
+				<td class="filled"></td>
+				<td></td>
+				<td class="filled"></td>
+				<td></td>
+				<td class="filled"></td>
+				<td></td>
+				<td class="filled"></td>
+				<td></td>
+				<td class="filled"></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td class="filled"></td>
+				<td class="filled"></td>
+				<td class="filled"></td>
+				<td></td>
+				<td class="filled"></td>
+				<td></td>
+				<td class="filled"></td>
+				<td></td>
+				<td class="filled"></td>
+				<td class="filled"></td>
+				<td class="filled"></td>
+				<td></td>
+				<td class="filled"></td>
+				<td class="filled"></td>
+				<td class="filled"></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td class="filled"></td>
+				<td></td>
+				<td class="filled"></td>
+				<td></td>
+				<td class="filled"></td>
+				<td></td>
+				<td class="filled"></td>
+				<td></td>
+				<td class="filled"></td>
+				<td></td>
+				<td class="filled"></td>
+				<td></td>
+				<td></td>
+				<td class="filled"></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td class="filled"></td>
+				<td class="filled"></td>
+				<td class="filled"></td>
+				<td></td>
+				<td class="filled"></td>
+				<td class="filled"></td>
+				<td></td>
+				<td></td>
+				<td class="filled"></td>
+				<td></td>
+				<td class="filled"></td>
+				<td></td>
+				<td></td>
+				<td class="filled"></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+	</div>
+
+	<script>
+
+		var API_KEY = '18744062-fa67feda180d0074a15a0df0d';
+
+		function getRandomInt(max) {
+			return Math.floor(Math.random() * Math.floor(max));
+		}
+
+		function searchImages() {
+
+			let keyword = document.getElementById("keyword").value
+			var URL = "https://pixabay.com/api/?key="+API_KEY+"&q="+ keyword + "&per_page=150&image_type=photo";
+
+			var filledBoxes = document.querySelectorAll(".filled");
+
+			fetch(URL)
+			.then(data => {return data.json()})
+			.then(res => {
+				let hits = res["hits"].length
+				filledBoxes.forEach(function(box) {
+					let randInt = getRandomInt(hits)
+					let randImage = res["hits"][randInt]["webformatURL"]
+					box.style.backgroundImage = "url('" + randImage + "')"
+				})
+
+			})
+		}
+	</script>
+
+</body>
+</html>
