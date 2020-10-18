@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Pixelated Happy Birthday</title>
+    <meta name="description" content="Coders Style of wishing Happy Birthday">
+    <style>
+        body {
+            height: 100vh;
+            background-color: #000;
+            padding: 10% 0;
+        }
+        .happy-block {
+            padding: 0 20%;
+        }
+        .happy {
+            width: 1.5em;
+            height: 1.5em;
+            background-color: transparent;
+            box-shadow: 1.5em 1.5em red,
+                        1.5em 3.0em red,
+                        1.5em 4.5em red,
+                        1.5em 6.0em red,
+                        1.5em 7.5em red,
+                        1.5em 9.0em red,
+                        1.5em 10.5em red,
+                        3.0em 6.0em red,
+                        4.5em 6.0em red,
+                        6.0em 6.0em red,
+                        7.5em 1.5em red,
+                        7.5em 3.0em red,
+                        7.5em 4.5em red,
+                        7.5em 6.0em red,
+                        7.5em 7.5em red,
+                        7.5em 9.0em red,
+                        7.5em 10.5em red,
+                        /* A */
+                        10.5em 10.5em red,
+                        10.5em 9.0em red,
+                        10.5em 7.5em red,
+                        10.5em 6.0em red,
+                        10.5em 4.5em red,
+                        12.0em 3.0em red,
+                        13.5em 1.5em red,
+                        12.0em 6.0em red,
+                        13.5em 6.0em red,
+                        15.0em 6.0em red,
+                        15.0em 3.0em red,
+                        16.5em 4.5em red,
+                        16.5em 6.0em red,
+                        16.5em 7.5em red,
+                        16.5em 9.0em red,
+                        16.5em 10.5em red,
+                        /* P */
+                        19.5em 1.5em red,
+                        19.5em 3.0em red,
+                        19.5em 4.5em red,
+                        19.5em 6.0em red,
+                        19.5em 7.5em red,
+                        19.5em 9.0em red,
+                        19.5em 10.5em red,
+                        21.0em 1.5em red,
+                        22.5em 1.5em red,
+                        24.0em 1.5em red,
+                        25.5em 3.0em red,
+                        25.5em 4.5em red,
+                        24.0em 6.0em red,
+                        22.5em 6.0em red,
+                        21.0em 6.0em red,
+                        /* P */
+                        28.5em 1.5em red,
+                        28.5em 3.0em red,
+                        28.5em 4.5em red,
+                        28.5em 6.0em red,
+                        28.5em 7.5em red,
+                        28.5em 9.0em red,
+                        28.5em 10.5em red,
+                        30.0em 1.5em red,
+                        31.5em 1.5em red,
+                        33.0em 1.5em red,
+                        34.5em 3.0em red,
+                        34.5em 4.5em red,
+                        33.0em 6.0em red,
+                        31.5em 6.0em red,
+                        30.0em 6.0em red,
+                        /* Y */
+                        37.5em 1.5em red,
+                        37.5em 3.0em red,
+                        39.0em 4.5em red,
+                        40.5em 6.0em red,
+                        40.5em 7.5em red,
+                        40.5em 9.0em red,
+                        40.5em 10.5em red,
+                        42.0em 4.5em red,
+                        43.5em 3.0em red,
+                        43.5em 1.5em red;
+        }
+        .birthday-block {
+            padding: 0 8%;
+        }
+        .birthday {
+            width: 1.5em;
+            height: 1.5em;
+            box-shadow: 1.5em 13.5em red,
+                        1.5em 15.0em red,
+                        1.5em 16.5em red,
+                        1.5em 18.0em red,
+                        1.5em 19.5em red,
+                        1.5em 21.0em red,
+                        1.5em 22.5em red,
+                        3.0em 13.5em red,
+                        4.5em 13.5em red,
+                        6.0em 13.5em red,
+                        7.5em 15.0em red,
+                        7.5em 16.5em red,
+                        6.0em 18.0em red,
+                        4.5em 18.0em red,
+                        3.0em 18.0em red,
+                        7.5em 19.5em red,
+                        7.5em 21.0em red,
+                        6.0em 22.5em red,
+                        4.5em 22.5em red,
+                        3.0em 22.5em red,
+                        /* I */
+                        10.5em 13.5em red,
+                        12.0em 13.5em red,
+                        13.5em 13.5em red,
+                        15.0em 13.5em red,
+                        16.5em 13.5em red,
+                        13.5em 15.0em red,
+                        13.5em 16.5em red,
+                        13.5em 18.0em red,
+                        13.5em 19.5em red,
+                        13.5em 21.0em red,
+                        13.5em 22.5em red,
+                        10.5em 22.5em red,
+                        12.0em 22.5em red,
+                        13.5em 22.5em red,
+                        15.0em 22.5em red,
+                        16.5em 22.5em red,
+                        /* R */
+                        19.5em 13.5em red,
+                        19.5em 15.0em red,
+                        19.5em 16.5em red,
+                        19.5em 18.0em red,
+                        19.5em 19.5em red,
+                        19.5em 21.0em red,
+                        19.5em 22.5em red,
+                        21.0em 13.5em red,
+                        22.5em 13.5em red,
+                        24.0em 13.5em red,
+                        25.5em 15.0em red,
+                        25.5em 16.5em red,
+                        24.0em 18.0em red,
+                        22.5em 18.0em red,
+                        21.0em 18.0em red,
+                        22.5em 19.5em red,
+                        24.0em 21.0em red,
+                        25.5em 22.5em red,
+                        /* T */
+                        28.5em 13.5em red,
+                        30.0em 13.5em red,
+                        31.5em 13.5em red,
+                        33.0em 13.5em red,
+                        34.5em 13.5em red,
+                        31.5em 15.0em red,
+                        31.5em 16.5em red,
+                        31.5em 18.0em red,
+                        31.5em 19.5em red,
+                        31.5em 21.0em red,
+                        31.5em 22.5em red,
+                        /* H */
+                        37.5em 13.5em red,
+                        37.5em 15.0em red,
+                        37.5em 16.5em red,
+                        37.5em 18.0em red,
+                        37.5em 19.5em red,
+                        37.5em 21.0em red,
+                        37.5em 22.5em red,
+                        39.0em 18.0em red,
+                        40.5em 18.0em red,
+                        42.0em 18.0em red,
+                        43.5em 13.5em red,
+                        43.5em 15.0em red,
+                        43.5em 16.5em red,
+                        43.5em 18.0em red,
+                        43.5em 19.5em red,
+                        43.5em 21.0em red,
+                        43.5em 22.5em red,
+                        /* D */
+                        46.5em 13.5em red,
+                        46.5em 15.0em red,
+                        46.5em 16.5em red,
+                        46.5em 18.0em red,
+                        46.5em 19.5em red,
+                        46.5em 21.0em red,
+                        46.5em 22.5em red,
+                        48.0em 13.5em red,
+                        49.5em 13.5em red,
+                        51.0em 13.5em red,
+                        52.5em 15.0em red,
+                        52.5em 16.5em red,
+                        52.5em 18.0em red,
+                        52.5em 19.5em red,
+                        52.5em 21.0em red,
+                        51.0em 22.5em red,
+                        49.5em 22.5em red,
+                        48.0em 22.5em red,
+                        /* A */
+                        55.5em 22.5em red,
+                        55.5em 21.0em red,
+                        55.5em 19.5em red,
+                        55.5em 18.0em red,
+                        55.5em 16.5em red,
+                        57.0em 15.0em red,
+                        58.5em 13.5em red,
+                        57.0em 18.0em red,
+                        58.5em 18.0em red,
+                        60.0em 18.0em red,
+                        60.0em 15.0em red,
+                        61.5em 16.5em red,
+                        61.5em 18.0em red,
+                        61.5em 19.5em red,
+                        61.5em 21.0em red,
+                        61.5em 22.5em red,
+                        /* Y */
+                        64.5em 13.5em red,
+                        64.5em 15.0em red,
+                        66.0em 16.5em red,
+                        67.5em 18.0em red,
+                        67.5em 19.5em red,
+                        67.5em 21.0em red,
+                        67.5em 22.5em red,
+                        69.0em 16.5em red,
+                        70.5em 15.0em red,
+                        70.5em 13.5em red;
+        }
+    </style>
+  </head>
+  <body>
+        <div class="happy-block">
+            <div class='happy'></div>
+        </div>
+        <div class='birthday-block'>
+            <div class='birthday'></div>
+        </div>
+  </body>
+</html>
