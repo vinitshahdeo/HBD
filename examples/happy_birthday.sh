@@ -1,5 +1,4 @@
 #!/bin/bash
-
 crypted="31550 27463810"
 decrypt=(Y A B H R P T I D)
 zero="0"
