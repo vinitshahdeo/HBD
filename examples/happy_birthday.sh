@@ -4,9 +4,9 @@ decrypt=(Y A B H R P T I D)
 zero="0"
 for i in {0..8}
 do
-    for ii in {0..60}
+    for _ in {0..60}
     do
-        echo -ne "$(echo "$crypted" | sed "s/$i/$zero/g")\r"
+        echo -ne "${crypted//$i/$zero}\r"
         if [[ $zero == "9" ]]; then
             zero="0"
         else
