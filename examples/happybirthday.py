@@ -15,4 +15,3 @@ for k in range (n):
           print ('  ',end="")
 print ("")
 print ("HAPPY"+' '+str(c)+' '+"TH"+' '+ "BIRTHDAY!")
- 
