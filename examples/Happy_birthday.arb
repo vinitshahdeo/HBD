@@ -1,0 +1,4 @@
+#Author : Dijo Daiju
+wish='4861707079204269727468646179212121'
+wish = wish.scan(/../).map { |x| x.hex.chr }.join
+puts wish
