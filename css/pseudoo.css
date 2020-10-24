@@ -1,0 +1,61 @@
+body{
+	background-image: url("birthday.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+div{
+	color: #0c43b4;
+    background: #f0a0e4;
+
+	text-align: center;
+	width: 300px;
+	height: 150px;
+	border-radius: 6px;
+	transition-property: color, width, background, border-radius;
+	transition-duration: .5s;
+	transition-timing-function: linear;
+	transition-delay: .5s;
+	padding-top: 7%;
+	margin: 10%;
+	
+
+}
+
+div:hover{
+	color: #f0a0e4;
+	width: 350px;
+	background: #0c43b4;
+	border-radius: 50%;
+}
+
+div:active{
+	color: #daac92;
+	width: 200px;
+	background: #a92739;
+}
+
+div{
+	position: relative;
+	border: 3px solid #000000;
+}
+
+h1,h2 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h1, h2{
+	width: 50%;
+	position: relative;
+	top: 0px;
+	left: 73px;
+
+}
