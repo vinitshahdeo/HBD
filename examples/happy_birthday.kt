@@ -1,4 +1,4 @@
-fun main(){
-  var name = readLine()!!.toString()
+fun main(args: Array<String>){
+  var name = "Quwaysim"
   print("Happy Birthday $name")
 }
