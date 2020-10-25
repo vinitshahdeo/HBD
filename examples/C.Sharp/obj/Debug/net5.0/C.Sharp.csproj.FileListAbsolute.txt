@@ -1,0 +1,14 @@
+C:\Users\ENGR UCHE\Documents\GitHub\HBD\examples\C.Sharp\bin\Debug\net5.0\C.Sharp.exe
+C:\Users\ENGR UCHE\Documents\GitHub\HBD\examples\C.Sharp\bin\Debug\net5.0\C.Sharp.deps.json
+C:\Users\ENGR UCHE\Documents\GitHub\HBD\examples\C.Sharp\bin\Debug\net5.0\C.Sharp.runtimeconfig.json
+C:\Users\ENGR UCHE\Documents\GitHub\HBD\examples\C.Sharp\bin\Debug\net5.0\C.Sharp.runtimeconfig.dev.json
+C:\Users\ENGR UCHE\Documents\GitHub\HBD\examples\C.Sharp\bin\Debug\net5.0\C.Sharp.dll
+C:\Users\ENGR UCHE\Documents\GitHub\HBD\examples\C.Sharp\bin\Debug\net5.0\C.Sharp.pdb
+C:\Users\ENGR UCHE\Documents\GitHub\HBD\examples\C.Sharp\obj\Debug\net5.0\C.Sharp.csprojAssemblyReference.cache
+C:\Users\ENGR UCHE\Documents\GitHub\HBD\examples\C.Sharp\obj\Debug\net5.0\C.Sharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ENGR UCHE\Documents\GitHub\HBD\examples\C.Sharp\obj\Debug\net5.0\C.Sharp.AssemblyInfoInputs.cache
+C:\Users\ENGR UCHE\Documents\GitHub\HBD\examples\C.Sharp\obj\Debug\net5.0\C.Sharp.AssemblyInfo.cs
+C:\Users\ENGR UCHE\Documents\GitHub\HBD\examples\C.Sharp\obj\Debug\net5.0\C.Sharp.csproj.CoreCompileInputs.cache
+C:\Users\ENGR UCHE\Documents\GitHub\HBD\examples\C.Sharp\obj\Debug\net5.0\C.Sharp.dll
+C:\Users\ENGR UCHE\Documents\GitHub\HBD\examples\C.Sharp\obj\Debug\net5.0\C.Sharp.pdb
+C:\Users\ENGR UCHE\Documents\GitHub\HBD\examples\C.Sharp\obj\Debug\net5.0\C.Sharp.genruntimeconfig.cache
