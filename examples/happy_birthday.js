@@ -1,3 +1,5 @@
-function happy_birth_day_who_you_love(someone) {
-  return `Happy birth day to ${someone}.`;
+function HappyBirthDaySomeone(someone) {
+  return `Happy birth day ${someone}.`;
 }
+
+console.log(HappyBirthDaySomeone("my girlfriend"));
