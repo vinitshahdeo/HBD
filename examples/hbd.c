@@ -5,7 +5,7 @@ int main(void) {
   char name[50];
 
   printf("Please tell me your name: \n");
-  scanf("%[^\n]", name);
+  scanf("%[^\n]", name, 20);
   printf("Happy Birthday, %s!\n", name);
 
   return 0;
