@@ -1,5 +1,4 @@
 import turtle
-import random
 
 # set the background color for the page
 bg = turtle.Screen()
