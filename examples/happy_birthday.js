@@ -1,5 +1,5 @@
-function HappyBirthDaySomeone(someone) {
+function happyBirthDaySomeone(someone) {
   return `Happy birth day ${someone}.`;
 }
 
-console.log(HappyBirthDaySomeone("my girlfriend"));
+console.log(happyBirthDaySomeone("my girlfriend"));
