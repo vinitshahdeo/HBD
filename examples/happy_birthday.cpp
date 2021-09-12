@@ -7,5 +7,4 @@ using namespace std;
 
    cout<<str<<endl;
    cout<<"GUESS WHAT I AM TELLING ??";
-
 }
