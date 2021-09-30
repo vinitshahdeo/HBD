@@ -1,0 +1,15 @@
+console.log("|      |     ____       ____       ____            ");
+console.log("|      |   /      \\   /      \\   /      \\   \\     /");
+console.log("|______|   |      |   |      /   |      /    \\   / ");
+console.log("|      |   |______|   |------    |------      \\ /  ");
+console.log("|      |   |      |   |          |             |   ");
+console.log("|      |   |      |   |          |             |   ");
+console.log("");
+console.log("  ____            _____        ____             ");
+console.log("/      \\        /       \\    /      \\    \\     /");
+console.log("|      /        |        |   |      |     \\   / ");
+console.log("|_____/    --   |        |   |______|      \\ /  ");
+console.log("|      \\        |        |   |      |       |   ");
+console.log("|______/        |_______/    |      |       |   ");
+console.log("");
+console.log("             I hope you a great day!             ");
