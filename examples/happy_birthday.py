@@ -6,7 +6,7 @@ name = "Happy Birthday day"
 l = ""
 
 # Defigning every letter
-for x in range(0, len(name)): 
+for x, item in enumerate(name): 
 	c = name[x] 
 	c = c.upper() 
 	
