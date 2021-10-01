@@ -1,4 +1,4 @@
-# Wishing you happy birthday with the classic HBD tune.
+# Wishing you happy birthday with greetings, images and a nice song
 
 # required modules: PIL, requests, rumale.yaml, pygame
 
