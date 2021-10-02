@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+    <style>
+      body {
+        justify-content: center;
+        overflow: hidden;
+        background: #181a18;
+        width: 100%;
+        height: 100%;
+      }
+
+      p {
+        font-size: 24px;
+      }
+      #hbd {
+        margin-top: 14.5rem;
+        width: 100%;
+        text-align: center;
+        font-family: "Bangers", cursive;
+        font-size: 27px;
+        padding-top: 20px;
+        background: -webkit-linear-gradient(45deg, #53d9d1, #f27b9b, #eb7132);
+        background-clip: padding-box;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      /* confetti */
+      .confetti-container {
+        height: 100%;
+        width: 100%;
+        position: relative;
+        top: -20rem;
+      }
+      .confetti {
+        position: absolute;
+        background: #181a18;
+        height: 15px;
+        width: 10px;
+        left: 50%;
+        animation: confetti 4.4s ease-in-out -2s infinite;
+        transform-origin: left top;
+        overflow: hidden;
+      }
+
+      .confetti:nth-child(1) {
+        background-color: #eb7132;
+        left: 60%;
+        animation-delay: 0;
+      }
+      .confetti:nth-child(2) {
+        background-color: #f27b9b;
+        left: 20%;
+        animation-delay: -1s;
+      }
+      .confetti:nth-child(3) {
+        background-color: #eb7132;
+        left: 30%;
+        animation-delay: -5.52s;
+      }
+      .confetti:nth-child(4) {
+        background-color: #53d9d1;
+        left: 40%;
+        animation-delay: -3s;
+      }
+      .confetti:nth-child(5) {
+        background-color: #f27b9b;
+        left: 50%;
+        animation-delay: -2.25s;
+      }
+      .confetti:nth-child(6) {
+        background-color: #eb7132;
+        left: 60%;
+        animation-delay: -6s;
+      }
+      .confetti:nth-child(7) {
+        background-color: #53d9d1;
+        left: 70%;
+        animation-delay: -1.57s;
+      }
+      .confetti:nth-child(8) {
+        background-color: #f27b9b;
+        left: 80%;
+        animation-delay: -0.54s;
+      }
+      .confetti:nth-child(9) {
+        background-color: #eb7132;
+        left: 90%;
+        animation-delay: -4.9s;
+      }
+      .confetti:nth-child(10) {
+        background-color: #53d9d1;
+        left: 100%;
+        animation-delay: -5.1s;
+      }
+      .confetti:nth-child(11) {
+        background-color: #eb7132;
+        left: 5%;
+        animation-delay: -4.23s;
+      }
+      .confetti:nth-child(12) {
+        background-color: #53d9d1;
+        left: 15%;
+        animation-delay: -3.65s;
+      }
+      .confetti:nth-child(13) {
+        background-color: #f27b9b;
+        left: 25%;
+        animation-delay: -0.58s;
+      }
+      .confetti:nth-child(14) {
+        background-color: #eb7132;
+        left: 35%;
+        animation-delay: -4.57s;
+      }
+      .confetti:nth-child(15) {
+        background-color: #53d9d1;
+        left: 45%;
+        animation-delay: -3.53s;
+      }
+      .confetti:nth-child(16) {
+        background-color: #f27b9b;
+        left: 55%;
+        animation-delay: -1.52s;
+      }
+      .confetti:nth-child(17) {
+        background-color: #eb7132;
+        left: 65%;
+        animation-delay: -2.57s;
+      }
+      .confetti:nth-child(18) {
+        background-color: #53d9d1;
+        left: 75%;
+        animation-delay: -6.3s;
+      }
+      .confetti:nth-child(19) {
+        background-color: #f27b9b;
+        left: 85%;
+        animation-delay: -3.58s;
+      }
+      .confetti:nth-child(20) {
+        background-color: #eb7132;
+        left: 90%;
+        animation-delay: -2.1s;
+      }
+
+      .confetti:nth-child(21) {
+        background-color: #53d9d1;
+        left: 50%;
+        animation-delay: -2s;
+      }
+      .confetti:nth-child(22) {
+        background-color: #f27b9b;
+        left: 50%;
+        animation-delay: -2s;
+      }
+      .confetti:nth-child(23) {
+        background-color: #eb7132;
+        left: 50%;
+        animation-delay: -1s;
+      }
+
+      @keyframes confetti {
+        0% {
+          transform: rotateZ(15deg) rotateY(0deg) translate(0, 0);
+        }
+        25% {
+          transform: rotateZ(5deg) rotateY(360deg) translate(-5vw, 20vh);
+        }
+        50% {
+          transform: rotateZ(15deg) rotateY(720deg) translate(10vw, 60vh);
+        }
+        75% {
+          transform: rotateZ(5deg) rotateY(1080deg) translate(-10vw, 80vh);
+        }
+        100% {
+          transform: rotateZ(25deg) rotateY(1440deg) translate(10vw, 110vh);
+        }
+      }
+    </style>
+  </head>
+  <body id="body" class="dark">
+    <p id="hbd">Happy Birthday</p>
+    <div class="confetti-container">
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+    </div>
+  </body>
+</html>
