@@ -1,3 +1,0 @@
-Program looks like this...
-
-![image](https://user-images.githubusercontent.com/89387048/135711900-236710be-c78a-4e9c-b639-1015372ab567.png)
