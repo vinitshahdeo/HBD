@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main()
+{
+	int c;
+		printf("Happy Birthday To You");
+	return 0;
+}
