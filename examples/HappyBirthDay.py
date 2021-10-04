@@ -16,7 +16,7 @@ email = bday["email"].tolist()
 
 friends = []
 
-for n in range(len(name)):
+for n, enumerate(name):
     friends.append(
         {
             "name": name[n],
