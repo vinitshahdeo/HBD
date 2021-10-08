@@ -35,7 +35,7 @@
 
 ### Designing a [website](http://codeastrike.000webhostapp.com/hbd/) to celebrate your loved one's day is always a great idea!
 
-> #### Click [here](http://codeastrike.000webhostapp.com/hbd/) to view live demo!
+> #### Click [here](https://vinitshahdeo.github.io/HBD/) to view live demo!
 
 ### Find some [more](https://medium.com/@vinitshahdeo/coders-way-of-wishing-happy-birthday-1fe457e7a2ba) creative ways!
 
@@ -45,7 +45,7 @@ I have also written a [blog](https://medium.com/@vinitshahdeo/coders-way-of-wish
 
 Run the below `C` code.
 
-> Click [here](https://code.hackerearth.com/65105eK) to run online.
+> Click [here](https://onlinegdb.com/fh1s-mNyq) to run online.
 
 [![C code](https://forthebadge.com/images/badges/made-with-c.svg)](https://code.hackerearth.com/65105eK) [![Run Online](https://forthebadge.com/images/badges/check-it-out.svg)](https://code.hackerearth.com/65105eK)
 
