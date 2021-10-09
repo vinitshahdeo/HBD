@@ -19,7 +19,7 @@
 [![Happy Birthday](https://img.shields.io/badge/Happy-Birthday-dodgerblue.svg?style=for-the-badge)](https://github.com/vinitshahdeo/HBD/) [![View Demo](https://img.shields.io/badge/View-Demo-teal.svg?style=for-the-badge)](http://codeastrike.000webhostapp.com/hbd/)
 [![Check Blog](https://img.shields.io/badge/Check-Blog-orange.svg?style=for-the-badge)](https://medium.com/@vinitshahdeo/coders-way-of-wishing-happy-birthday-1fe457e7a2ba)
 
-> **99.9% of people just say "Happy Birthday" to each other over Social Networking Sites like [Facebook](https://www.facebook.com/vinit.shahdeo) and [Twitter](https://twitter.com/Vinit_Shahdeo) with the same 14 predictable letters. Why not say it with `code`? If you're a developer you already understand it!**
+> **99.9% of people just say "Happy Birthday" to each other over Social Networking Sites like [Facebook](https://www.facebook.com/vinit.shahdeo) and [Twitter](https://twitter.com/Vinit_Shahdeo) with the same 14 predictable letters. Why not say it with `code`? If you're a developer you already understand it!The most fun way is through code**
 
 [![check demo](https://forthebadge.com/images/badges/its-not-a-lie-if-you-believe-it.svg)](http://codeastrike.000webhostapp.com/hbd/)
 
