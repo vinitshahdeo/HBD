@@ -1,5 +1,5 @@
 // CPP program to print Happy Birthday
-
+// created by rutvik gondaliya
 #include<bits/stdc++.h>
 
 using namespace std;
@@ -8,194 +8,164 @@ int main()
 
 {
 
-// Print first row
+  // Print first row
 
-char ch = '@';
+  char ch = '@';
 
-for(int i=1; i<=34; i++)
+  for(int i=1; i<=34; i++)
 
-{
+  {
 
-if (i==5||i==7||i==10||i==11||i==14||i==15||
+    if (i==5||i==7||i==10||i==11||i==14||i==15||i==16||i==18||i==19||i==20||i==22||i==24)
 
-i==16||i==18||i==19||i==20||i==22||i==24)
+    cout << ch ;
 
-cout << ch ;
+    else cout << " ";
 
-else cout << " ";
+  }
 
-}
+  // Print second row
 
-// Print second row
+  cout << endl;
 
-cout << endl;
+  for(int i=1; i<=34; i++)
 
-for(int i=1; i<=34; i++)
+  {
 
-{
+    if(i==5||i==7||i==9||i==12||i==14||i==16||i==18||i==20||i==22||i==24)
 
-if(i==5||i==7||i==9||i==12||i==14||i==16
+    cout << ch ;
 
-||i==18||i==20||i==22||i==24)
+    else cout << " ";
 
-cout << ch ;
+  }
 
-else cout << " ";
+  // Print third row
 
-}
+  cout << endl;
 
-// Print third row
+  for (int i=1; i<=34; i++)
 
-cout << endl;
+  {
 
-for (int i=1; i<=34; i++)
+    if (i==5||i==6||i==7||i==9||i==10||i==11||i==12||i==14||i==15||i==16||i==18||i==19||i==20||i==22||i==23||i==24)
 
-{
+    cout << ch ;
 
-if (i==5||i==6||i==7||i==9||i==10||i==11||i==12||
+    else cout << " ";
 
-i==14||i==15||i==16||i==18||i==19||i==20||
+  }
 
-i==22||i==23||i==24)
+  // Print fourth row
 
-cout << ch ;
+  cout << endl;
 
-else cout << " ";
+  for (int i=1; i<=34; i++)
 
-}
+  {
 
-// Print fourth row
+    if (i==5||i==7||i==9||i==12||i==14||i==18||i==23)
 
-cout << endl;
+    cout << ch ;
 
-for (int i=1; i<=34; i++)
+    else cout << " ";
 
-{
+  }
 
-if (i==5||i==7||i==9||i==12||i==14||i==18||i==23)
+  // Print fifth row
 
-cout << ch ;
+  cout << endl;
 
-else cout << " ";
+  for (int i=1; i<=34; i++)
 
-}
+  {
 
-// Print fifth row
+    if (i==5||i==7||i==9||i==12||i==14||i==18||i==23)
 
-cout << endl;
+    cout << ch ;
 
-for (int i=1; i<=34; i++)
+    else cout << " " ;
 
-{
+  }
 
-if (i==5||i==7||i==9||i==12||i==14||i==18||i==23)
+  // Happy is printed, now print
 
-cout << ch ;
+  // birthday row by row
 
-else cout << " " ;
+  cout << endl;
 
-}
+  cout << endl;
 
-// Happy is printed, now print
+  cout << endl;
 
-// birthday row by row
+  for (int i=1; i<=34; i++)
 
-cout << endl;
+  {
 
-cout << endl;
+    if (i==2||i==3||i==4||i==6||i==7||i==8||i==10||i==11||i==14||i==15||i==16||i==18||i==20||i==22||i==23||i==27||i==28||i==31||i==33)
 
-cout << endl;
+    cout << ch ;
 
-for (int i=1; i<=34; i++)
+    else cout << " ";
 
-{
+  }
 
-if (i==2||i==3||i==4||i==6||i==7||i==8||i==10||
+  cout << endl;
 
-i==11||i==14||i==15||i==16||i==18||i==20||
+  for(int i=1; i<=34; i++)
 
-i==22||i==23||i==27||i==28||i==31||i==33)
+  {
 
-cout << ch ;
+    if (i==2||i==4||i==7||i==10||i==12||i==15||i==18||i==20||i==22||i==24||i==26||i==29||i==31||i==33)
 
-else cout << " ";
+    cout << ch ;
 
-}
+    else cout << " " ;
 
-cout << endl;
+  }
 
-for(int i=1; i<=34; i++)
+  cout << endl;
 
-{
+  for (int i=1; i<=34; i++)
 
-if (i==2||i==4||i==7||i==10||i==12||
+  {
 
-i==15||i==18||i==20||i==22||i==24||
+    if (i==2||i==3||i==4||i==7||i==10||i==11||i==15||i==18||i==19||i==20||i==22||i==24||i==26||i==27||i==28||i==29||i==31||i==32||i==33)
 
-i==26||i==29||i==31||i==33)
+    cout << ch ;
 
-cout << ch ;
+    else cout << " " ;
 
-else cout << " " ;
+  }
 
-}
+  cout << endl;
 
-cout << endl;
+  for (int i=1; i<=34; i++)
 
-for (int i=1; i<=34; i++)
+  {
 
-{
+    if (i==2||i==4||i==7||i==10||i==12||i==15||i==18||i==20||i==22||i==24||i==26||i==29||i==32)
 
-if (i==2||i==3||i==4||i==7||i==10||i==11||
+    cout << ch ;
 
-i==15||i==18||i==19||i==20||i==22||
+    else cout << " " ;
 
-i==24||i==26||i==27||i==28||i==29||i==31
+  }
 
-||i==32||i==33)
+  cout << endl;
 
-cout << ch ;
+  for (int i=1; i<=34; i++)
 
-else cout << " " ;
+  {
 
-}
+    if (i==2||i==3||i==4||i==6||i==7||i==8||i==10||i==12||i==15||i==18||i==20||i==23||i==22||i==26||i==29||i==32)
 
-cout << endl;
+    cout << ch ;
 
-for (int i=1; i<=34; i++)
+    else cout << " " ;
 
-{
+  }
 
-if (i==2||i==4||i==7||i==10||i==12||
-
-i==15||i==18||i==20||i==22||
-
-i==24||i==26||i==29||i==32)
-
-cout << ch ;
-
-else cout << " " ;
-
-}
-
-cout << endl;
-
-for (int i=1; i<=34; i++)
-
-{
-
-if (i==2||i==3||i==4||i==6||i==7||i==8||
-
-i==10||i==12||i==15||i==18||i==20||
-
-i==23||i==22||i==26||i==29||i==32)
-
-cout << ch ;
-
-else cout << " " ;
-
-}
-
-cout << endl;
+  cout << endl;
 
 }
