@@ -1,0 +1,40 @@
+import datetime
+
+doubleDigit = """ 
+*    *   ***    ****
+*    *   *    *   *     *
+*    *   *    *   *      *
+****   ***     *       *
+*    *   *    *   *      *
+*    *   *    *   *     *
+*    *   ***    ****
+"""
+
+singleDigit = """
+*    *   *****    *****
+*    *   *    *   *    *
+*    *   *    *   *     *
+******   *****    *     *
+*    *   *    *   *     *
+*    *   *    *   *    *
+*    *   ****     ****
+"""
+year = input("Enter your birth year: ")
+yearIntUser = int(year)
+
+date = datetime.datetime.now()
+yearInt = date.year
+
+print("Today you turned "+str(yearInt - yearIntUser)+" years old")
+age = yearInt - yearIntUser
+
+if 10 > int(age) > -1:
+    string = singleDigit
+elif 10 <= int(age) < 100:
+    string = doubleDigit
+else:
+    print("Invalid age")
+
+age_str = str(age)
+b = string.replace("*", age_str)
+print(b)
