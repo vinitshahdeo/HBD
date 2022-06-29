@@ -1,0 +1,13 @@
+//WISHING HAPPY BIRTHDAY
+#include<iostream>
+using namespace std ;
+int main()
+{
+   while(alive)
+    {
+       if(Day == DayInDOB && Month == MonthInDOB)
+          cout<<"H@99y B!rThd@y :)" ;
+       else
+          update Day and Month and Alive status xD ;
+    }
+}
