@@ -1,0 +1,5 @@
+void many_happy() 
+{ 
+while (! your_birthday) ; 
+return;
+} 
