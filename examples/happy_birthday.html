@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.cake-cont {
+  margin: 0 auto;
+  width: 500px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.cake {
+  position: relative;
+  width: 300px;
+  height: 270px;
+}
+
+.cake-top {
+  position: absolute;
+  width: 260px;
+  height: 82px;
+  background: #783514;
+  border-radius: 50%;
+  z-index: 9;
+}
+
+.cake-top::before {
+  content: 'Happy Birthday';
+  font-size: 25px;
+  font-family: sans-serif;
+  color: #f4ebdc;
+  left: 21%;
+  top: 22%;
+  position: absolute;
+  transform: skew(10deg, 10deg);
+}
+
+.cake-choc {
+  display: block;
+  width: 41px;
+  height: 42px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-color: #783514;
+  position: absolute;
+  z-index: 99;
+}
+
+.cake-choc1 {
+  top: 53px;
+  left: 5px;
+  transform: skewY(15deg);
+  height: 29px;
+  width: 25px;
+}
+
+.cake-choc2 {
+  top: 55px;
+  left: 207px;
+  transform: skewY(-15deg);
+}
+
+.cake-choc3 {
+  top: 54px;
+  left: 34px;
+  width: 54px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.cake-candle {
+  position: absolute;
+  background-color: #7b020b;
+  width: 16px;
+  height: 40px;
+  border-radius: 8px / 4px;
+  top: -20px;
+  left: 44%;
+  margin-left: -8px;
+  z-index: 10;
+}
+
+.cake-candle::before {
+  position: absolute;
+  background-color: orange;
+  content: '';
+  display: block;
+  width: 15px;
+  height: 25px;
+  border-radius: 10px 10px 10px 10px / 25px 25px 10px 10px;
+  top: -25px;
+  left: 50%;
+  margin-left: -7.5px;
+  box-shadow: -1px -3px 10px 7px rgba(255, 165, 0, 0.5),
+    0 0 20px rgba(255, 165, 0, 0.5), 0 0 60px rgba(255, 165, 0, 0.5),
+    0 0 80px rgba(255, 165, 0, 0.5);
+  transform-origin: 50% 90%;
+}
+
+.cake-side {
+  position: absolute;
+  width: 89px;
+  height: 90px;
+  top: 15%;
+  background: #eec096;
+}
+
+.cake-side1 {
+  right: 40px;
+  border-radius: 0px 0px 46px 0px;
+}
+
+.cake-side2 {
+  border-radius: 0px 0px 0px 46px;
+}
+
+.cake-side1::after {
+  position: absolute;
+  z-index: 99;
+  top: 22px;
+  transform: skewY(29deg);
+  left: -42px;
+  content: '';
+  display: block;
+  width: 36px;
+  height: 50px;
+  background: #f8f898;
+  border: 3px solid #78351480;
+}
+
+.cake-side2::before {
+  position: absolute;
+  z-index: 99;
+  top: 22px;
+  transform: skewY(-29deg);
+  left: 89px;
+  content: '';
+  display: block;
+  width: 35px;
+  height: 50px;
+  background: #f8f898;
+  border: 3px solid #78351480;
+}
+</style>
+</head>
+<body>
+
+<div class="cake-cont">
+<div class="cake">
+      <div class="cake-top"></div>
+      <div class="cake-choc cake-choc1"></div>
+      <div class="cake-choc cake-choc2"></div>
+      <div class="cake-choc cake-choc3"></div>
+      <div class="cake-candle"></div>
+      <div class="cake-side cake-side1"></div>
+      <div class="cake-side cake-side2"></div>
+    </div>
+</div>
+
+</body>
+</html>
+
+
+
