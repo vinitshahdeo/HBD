@@ -1,0 +1,21 @@
+#include <unistd.h>
+#include <cstring>
+#include <iostream>
+
+using namespace std;
+
+void slowPrint(unsigned long speed, const char *t) {
+	int x = 0;
+	while(t[x]!=0) {
+		cout << t[x++];
+		cout.flush();
+		usleep(speed);
+	}
+}
+
+int main() {
+	slowPrint(2000, "Wish you a very happy birthday!!!\n");
+  slowPrint(2000, "Wish you a very happy birthday!!!\n");
+  slowPrint(300000, "MAY YOU HAVE A BLEESED DAY AHEAD!!!!");
+	return 0;
+}
