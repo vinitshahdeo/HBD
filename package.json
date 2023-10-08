@@ -1,0 +1,24 @@
+{
+  "name": "hbd",
+  "version": "1.0.0",
+  "description": "```",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heeba-khan/HBD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heeba-khan/HBD/issues"
+  },
+  "homepage": "https://github.com/heeba-khan/HBD#readme"
+}
